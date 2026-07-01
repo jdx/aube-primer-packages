@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T10:18:12.990Z",
+  "generated_at": "2026-07-01T08:48:49.353Z",
   "source": {
     "seeds_file": "data/seeds.json",
     "stack_count": 33,
@@ -465,7 +465,41 @@
       ]
     },
     {
+      "name": "@emnapi/core",
+      "score": 11,
+      "stacks": [
+        "astro-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
       "name": "@emnapi/runtime",
+      "score": 11,
+      "stacks": [
+        "astro-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@emnapi/wasi-threads",
       "score": 11,
       "stacks": [
         "astro-react",
@@ -496,6 +530,40 @@
         "vite-solid-ts",
         "vite-svelte-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "score": 11,
+      "stacks": [
+        "astro-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "score": 11,
+      "stacks": [
+        "astro-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
       ]
     },
     {
@@ -733,70 +801,6 @@
         "remix",
         "vite-solid-ts",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "@emnapi/core",
-      "score": 10,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@emnapi/wasi-threads",
-      "score": 10,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@napi-rs/wasm-runtime",
-      "score": 10,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@tybys/wasm-util",
-      "score": 10,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -1243,21 +1247,6 @@
       ]
     },
     {
-      "name": "yallist",
-      "score": 9,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "vite-solid-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "@babel/compat-data",
       "score": 8,
       "stacks": [
@@ -1311,6 +1300,20 @@
         "remix",
         "vite-solid-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "@oxc-project/types",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
       ]
     },
     {
@@ -1482,20 +1485,6 @@
       ]
     },
     {
-      "name": "escape-string-regexp",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "ts-eslint"
-      ]
-    },
-    {
       "name": "get-intrinsic",
       "score": 8,
       "stacks": [
@@ -1633,6 +1622,174 @@
         "remix",
         "ts-eslint",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "lightningcss",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "parcel",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
       ]
     },
     {
@@ -1790,6 +1947,20 @@
       ]
     },
     {
+      "name": "yallist",
+      "score": 8,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "remix",
+        "vite-solid-ts"
+      ]
+    },
+    {
       "name": "@babel/core",
       "score": 7,
       "stacks": [
@@ -1829,10 +2000,192 @@
       ]
     },
     {
-      "name": "@oxc-project/types",
+      "name": "@rolldown/binding-android-arm64",
       "score": 7,
       "stacks": [
-        "nuxt-ts",
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "score": 7,
+      "stacks": [
+        "astro-react",
         "sveltekit-ts",
         "vite-react-ts",
         "vite-solid-ts",
@@ -1891,6 +2244,19 @@
         "nuxt-ts",
         "parcel",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "escape-string-regexp",
+      "score": 7,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "ts-eslint"
       ]
     },
     {
@@ -2021,162 +2387,6 @@
         "prisma-app",
         "ts-eslint",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "lightningcss",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-android-arm64",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-darwin-arm64",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-darwin-x64",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-freebsd-x64",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-linux-arm-gnueabihf",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-linux-arm64-gnu",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-linux-arm64-musl",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-linux-x64-gnu",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-linux-x64-musl",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-win32-arm64-msvc",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "lightningcss-win32-x64-msvc",
-      "score": 7,
-      "stacks": [
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -2323,6 +2533,19 @@
       ]
     },
     {
+      "name": "rolldown",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
       "name": "side-channel",
       "score": 7,
       "stacks": [
@@ -2449,186 +2672,6 @@
         "remix",
         "vite-solid-ts",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-android-arm64",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-darwin-arm64",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-darwin-x64",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-freebsd-x64",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm-gnueabihf",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm64-gnu",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm64-musl",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-ppc64-gnu",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-s390x-gnu",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-x64-gnu",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-x64-musl",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-openharmony-arm64",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-wasm32-wasi",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-win32-arm64-msvc",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-win32-x64-msvc",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -3073,18 +3116,6 @@
         "prisma-app",
         "remix",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "rolldown",
-      "score": 6,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -3948,6 +3979,17 @@
       ]
     },
     {
+      "name": "obug",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "vite-svelte-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "path-scurry",
       "score": 5,
       "stacks": [
@@ -4217,256 +4259,6 @@
         "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-android-arm-eabi",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-android-arm64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-darwin-arm64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-darwin-x64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-freebsd-arm64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-freebsd-x64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-arm-gnueabihf",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-arm-musleabihf",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-arm64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-arm64-musl",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-loong64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-loong64-musl",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-ppc64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-ppc64-musl",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-riscv64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-riscv64-musl",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-s390x-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-x64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-linux-x64-musl",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-openbsd-x64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-openharmony-arm64",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-win32-arm64-msvc",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-win32-ia32-msvc",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-win32-x64-gnu",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
-      "name": "@rollup/rollup-win32-x64-msvc",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
       ]
     },
     {
@@ -4870,16 +4662,6 @@
       ]
     },
     {
-      "name": "obug",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "vite-svelte-ts",
-        "vitest-ts"
-      ]
-    },
-    {
       "name": "on-headers",
       "score": 4,
       "stacks": [
@@ -5020,16 +4802,6 @@
       ]
     },
     {
-      "name": "rollup",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts"
-      ]
-    },
-    {
       "name": "run-parallel",
       "score": 4,
       "stacks": [
@@ -5086,15 +4858,6 @@
         "gatsby-react",
         "nuxt-ts",
         "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@babel/plugin-syntax-import-attributes",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
         "webpack-react"
       ]
     },
@@ -5293,6 +5056,231 @@
       "stacks": [
         "astro-react",
         "nuxt-ts",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-android-arm-eabi",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-android-arm64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-darwin-arm64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-darwin-x64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-freebsd-arm64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-freebsd-x64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-musl",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-musl",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-openbsd-x64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-openharmony-arm64",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
         "rollup-ts"
       ]
     },
@@ -5645,6 +5633,15 @@
         "nuxt-ts",
         "prisma-app",
         "remix"
+      ]
+    },
+    {
+      "name": "cookie-es",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "react-router-app"
       ]
     },
     {
@@ -6251,15 +6248,6 @@
       ]
     },
     {
-      "name": "lodash.memoize",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "loose-envify",
       "score": 3,
       "stacks": [
@@ -6539,6 +6527,15 @@
       ]
     },
     {
+      "name": "rollup",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
+      ]
+    },
+    {
       "name": "run-async",
       "score": 3,
       "stacks": [
@@ -6764,15 +6761,6 @@
       ]
     },
     {
-      "name": "vscode-uri",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "vite-vue-ts"
-      ]
-    },
-    {
       "name": "which-typed-array",
       "score": 3,
       "stacks": [
@@ -6907,14 +6895,6 @@
       ]
     },
     {
-      "name": "@babel/plugin-proposal-private-property-in-object",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "@babel/plugin-syntax-class-properties",
       "score": 2,
       "stacks": [
@@ -6923,11 +6903,11 @@
       ]
     },
     {
-      "name": "@babel/plugin-syntax-import-assertions",
+      "name": "@babel/plugin-syntax-import-attributes",
       "score": 2,
       "stacks": [
         "gatsby-react",
-        "webpack-react"
+        "jest-ts"
       ]
     },
     {
@@ -6960,14 +6940,6 @@
       "stacks": [
         "gatsby-react",
         "jest-ts"
-      ]
-    },
-    {
-      "name": "@babel/plugin-syntax-unicode-sets-regex",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
       ]
     },
     {
@@ -8347,6 +8319,14 @@
       ]
     },
     {
+      "name": "@sveltejs/load-config",
+      "score": 2,
+      "stacks": [
+        "sveltekit-ts",
+        "vite-svelte-ts"
+      ]
+    },
+    {
       "name": "@tanstack/query-core",
       "score": 2,
       "stacks": [
@@ -8427,19 +8407,19 @@
       ]
     },
     {
-      "name": "@types/debug",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "@types/esrecurse",
       "score": 2,
       "stacks": [
         "next-react-ts",
         "ts-eslint"
+      ]
+    },
+    {
+      "name": "@types/estree-jsx",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "remix"
       ]
     },
     {
@@ -8483,6 +8463,14 @@
       ]
     },
     {
+      "name": "@types/jsesc",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "@types/json5",
       "score": 2,
       "stacks": [
@@ -8492,14 +8480,6 @@
     },
     {
       "name": "@types/mdast",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "@types/ms",
       "score": 2,
       "stacks": [
         "astro-react",
@@ -9227,23 +9207,7 @@
       ]
     },
     {
-      "name": "babel-plugin-polyfill-corejs2",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "babel-plugin-polyfill-corejs3",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "babel-plugin-polyfill-regenerator",
       "score": 2,
       "stacks": [
         "gatsby-react",
@@ -9403,14 +9367,6 @@
       ]
     },
     {
-      "name": "character-entities",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "character-entities-html4",
       "score": 2,
       "stacks": [
@@ -9464,22 +9420,6 @@
       "stacks": [
         "cypress",
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "consola",
-      "score": 2,
-      "stacks": [
-        "nest-api",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "cookie-es",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts"
       ]
     },
     {
@@ -9584,14 +9524,6 @@
       "stacks": [
         "gatsby-react",
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "decode-named-character-reference",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
       ]
     },
     {
@@ -9708,6 +9640,14 @@
     },
     {
       "name": "es-abstract",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts"
+      ]
+    },
+    {
+      "name": "es-abstract-get",
       "score": 2,
       "stacks": [
         "gatsby-react",
@@ -9896,14 +9836,6 @@
       "stacks": [
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "glob-to-regexp",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
       ]
     },
     {
@@ -10100,6 +10032,14 @@
     },
     {
       "name": "is-date-object",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts"
+      ]
+    },
+    {
+      "name": "is-document.all",
       "score": 2,
       "stacks": [
         "gatsby-react",
@@ -10411,19 +10351,11 @@
       ]
     },
     {
-      "name": "lodash.uniq",
+      "name": "lodash.memoize",
       "score": 2,
       "stacks": [
         "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "longest-streak",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
+        "jest-ts"
       ]
     },
     {
@@ -10435,47 +10367,7 @@
       ]
     },
     {
-      "name": "mdast-util-definitions",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "mdast-util-from-markdown",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "mdast-util-phrasing",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "mdast-util-to-hast",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "mdast-util-to-markdown",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "mdast-util-to-string",
       "score": 2,
       "stacks": [
         "astro-react",
@@ -10491,103 +10383,7 @@
       ]
     },
     {
-      "name": "micromark",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-core-commonmark",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-factory-destination",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-factory-label",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-factory-space",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-factory-title",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-factory-whitespace",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "micromark-util-character",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-chunked",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-classify-character",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-combine-extensions",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-decode-numeric-character-reference",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-decode-string",
       "score": 2,
       "stacks": [
         "astro-react",
@@ -10603,39 +10399,7 @@
       ]
     },
     {
-      "name": "micromark-util-html-tag-name",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-normalize-identifier",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-resolve-all",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "micromark-util-sanitize-uri",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "micromark-util-subtokenize",
       "score": 2,
       "stacks": [
         "astro-react",
@@ -11467,22 +11231,6 @@
       ]
     },
     {
-      "name": "remark-parse",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
-      "name": "remark-rehype",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "renderkid",
       "score": 2,
       "stacks": [
@@ -11843,14 +11591,6 @@
       ]
     },
     {
-      "name": "terser-webpack-plugin",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "text-decoder",
       "score": 2,
       "stacks": [
@@ -12091,14 +11831,6 @@
       ]
     },
     {
-      "name": "unist-util-remove-position",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "remix"
-      ]
-    },
-    {
       "name": "unist-util-stringify-position",
       "score": 2,
       "stacks": [
@@ -12216,6 +11948,14 @@
       "stacks": [
         "nuxt-ts",
         "remix"
+      ]
+    },
+    {
+      "name": "vscode-uri",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "vite-vue-ts"
       ]
     },
     {
@@ -12457,6 +12197,83 @@
       ]
     },
     {
+      "name": "@astrojs/compiler-binding",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-darwin-arm64",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-darwin-x64",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-arm64-gnu",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-arm64-musl",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-musl",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-wasm32-wasi",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-win32-arm64-msvc",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-binding-win32-x64-msvc",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@astrojs/compiler-rs",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
       "name": "@astrojs/internal-helpers",
       "score": 1,
       "stacks": [
@@ -12471,7 +12288,7 @@
       ]
     },
     {
-      "name": "@astrojs/markdown-remark",
+      "name": "@astrojs/markdown-satteri",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -12555,6 +12372,13 @@
       ]
     },
     {
+      "name": "@babel/plugin-proposal-private-property-in-object",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "@babel/plugin-syntax-async-generators",
       "score": 1,
       "stacks": [
@@ -12591,6 +12415,13 @@
     },
     {
       "name": "@babel/plugin-syntax-flow",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-import-assertions",
       "score": 1,
       "stacks": [
         "gatsby-react"
@@ -12636,6 +12467,13 @@
       "score": 1,
       "stacks": [
         "jest-ts"
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-unicode-sets-regex",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -12741,6 +12579,69 @@
       "score": 1,
       "stacks": [
         "nest-api"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-darwin-arm64",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-darwin-x64",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-linux-arm64-gnu",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-linux-arm64-musl",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-linux-x64-gnu",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-linux-x64-musl",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-wasm32-wasi",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-win32-arm64-msvc",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@bruits/satteri-win32-x64-msvc",
+      "score": 1,
+      "stacks": [
+        "astro-react"
       ]
     },
     {
@@ -13353,6 +13254,20 @@
       ]
     },
     {
+      "name": "@img/sharp-freebsd-wasm32",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "@img/sharp-webcontainers-wasm32",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
       "name": "@ioredis/commands",
       "score": 1,
       "stacks": [
@@ -13945,13 +13860,6 @@
       "score": 1,
       "stacks": [
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@nuxt/opencollective",
-      "score": 1,
-      "stacks": [
-        "nest-api"
       ]
     },
     {
@@ -16069,6 +15977,13 @@
       ]
     },
     {
+      "name": "@types/debug",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
       "name": "@types/deep-eql",
       "score": 1,
       "stacks": [
@@ -16087,13 +16002,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "@types/estree-jsx",
-      "score": 1,
-      "stacks": [
-        "remix"
       ]
     },
     {
@@ -16139,13 +16047,6 @@
       ]
     },
     {
-      "name": "@types/jsesc",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@types/keyv",
       "score": 1,
       "stacks": [
@@ -16171,6 +16072,13 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@types/ms",
+      "score": 1,
+      "stacks": [
+        "remix"
       ]
     },
     {
@@ -16615,6 +16523,13 @@
       ]
     },
     {
+      "name": "am-i-vibing",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
       "name": "anser",
       "score": 1,
       "stacks": [
@@ -16682,13 +16597,6 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "array-iterate",
-      "score": 1,
-      "stacks": [
-        "astro-react"
       ]
     },
     {
@@ -16864,6 +16772,20 @@
       "score": 1,
       "stacks": [
         "vite-solid-ts"
+      ]
+    },
+    {
+      "name": "babel-plugin-polyfill-corejs2",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
+      "name": "babel-plugin-polyfill-regenerator",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -17133,6 +17055,13 @@
       ]
     },
     {
+      "name": "character-entities",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
       "name": "character-reference-invalid",
       "score": 1,
       "stacks": [
@@ -17333,6 +17262,13 @@
       "score": 1,
       "stacks": [
         "webpack-react"
+      ]
+    },
+    {
+      "name": "consola",
+      "score": 1,
+      "stacks": [
+        "nuxt-ts"
       ]
     },
     {
@@ -17543,6 +17479,13 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "decode-named-character-reference",
+      "score": 1,
+      "stacks": [
+        "remix"
       ]
     },
     {
@@ -18484,6 +18427,13 @@
       ]
     },
     {
+      "name": "glob-to-regexp",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "global-directory",
       "score": 1,
       "stacks": [
@@ -18624,21 +18574,7 @@
       ]
     },
     {
-      "name": "hast-util-is-element",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "hast-util-parse-selector",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hast-util-raw",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -18653,20 +18589,6 @@
     },
     {
       "name": "hast-util-to-html",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hast-util-to-parse5",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hast-util-to-text",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -19583,6 +19505,13 @@
       ]
     },
     {
+      "name": "lodash.uniq",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "log-update",
       "score": 1,
       "stacks": [
@@ -19594,6 +19523,13 @@
       "score": 1,
       "stacks": [
         "prisma-app"
+      ]
+    },
+    {
+      "name": "longest-streak",
+      "score": 1,
+      "stacks": [
+        "remix"
       ]
     },
     {
@@ -19674,17 +19610,17 @@
       ]
     },
     {
-      "name": "markdown-table",
+      "name": "mdast-util-definitions",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
-      "name": "mdast-util-find-and-replace",
+      "name": "mdast-util-from-markdown",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
@@ -19692,48 +19628,6 @@
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm-autolink-literal",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm-footnote",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm-strikethrough",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm-table",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "mdast-util-gfm-task-list-item",
-      "score": 1,
-      "stacks": [
-        "astro-react"
       ]
     },
     {
@@ -19759,6 +19653,27 @@
     },
     {
       "name": "mdast-util-mdxjs-esm",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "mdast-util-phrasing",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "mdast-util-to-markdown",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "mdast-util-to-string",
       "score": 1,
       "stacks": [
         "remix"
@@ -19800,59 +19715,24 @@
       ]
     },
     {
-      "name": "micromark-extension-frontmatter",
+      "name": "micromark",
       "score": 1,
       "stacks": [
         "remix"
       ]
     },
     {
-      "name": "micromark-extension-gfm",
+      "name": "micromark-core-commonmark",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
-      "name": "micromark-extension-gfm-autolink-literal",
+      "name": "micromark-extension-frontmatter",
       "score": 1,
       "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "micromark-extension-gfm-footnote",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "micromark-extension-gfm-strikethrough",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "micromark-extension-gfm-table",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "micromark-extension-gfm-tagfilter",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "micromark-extension-gfm-task-list-item",
-      "score": 1,
-      "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
@@ -19891,6 +19771,20 @@
       ]
     },
     {
+      "name": "micromark-factory-destination",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-factory-label",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
       "name": "micromark-factory-mdx-expression",
       "score": 1,
       "stacks": [
@@ -19898,7 +19792,91 @@
       ]
     },
     {
+      "name": "micromark-factory-space",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-factory-title",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-factory-whitespace",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-chunked",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-classify-character",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-combine-extensions",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-decode-numeric-character-reference",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-decode-string",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
       "name": "micromark-util-events-to-acorn",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-html-tag-name",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-normalize-identifier",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-resolve-all",
+      "score": 1,
+      "stacks": [
+        "remix"
+      ]
+    },
+    {
+      "name": "micromark-util-subtokenize",
       "score": 1,
       "stacks": [
         "remix"
@@ -19944,6 +19922,13 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "minimizer-webpack-plugin",
+      "score": 1,
+      "stacks": [
+        "webpack-react"
       ]
     },
     {
@@ -20381,13 +20366,6 @@
       ]
     },
     {
-      "name": "parse-latin",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "parse-path",
       "score": 1,
       "stacks": [
@@ -20683,6 +20661,13 @@
     },
     {
       "name": "prismjs",
+      "score": 1,
+      "stacks": [
+        "astro-react"
+      ]
+    },
+    {
+      "name": "process-ancestry",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -21011,13 +20996,6 @@
       ]
     },
     {
-      "name": "rehype-raw",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "rehype-stringify",
       "score": 1,
       "stacks": [
@@ -21046,13 +21024,6 @@
       ]
     },
     {
-      "name": "remark-gfm",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "remark-mdx",
       "score": 1,
       "stacks": [
@@ -21067,17 +21038,17 @@
       ]
     },
     {
-      "name": "remark-smartypants",
+      "name": "remark-parse",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
-      "name": "remark-stringify",
+      "name": "remark-rehype",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
@@ -21165,28 +21136,7 @@
       ]
     },
     {
-      "name": "retext",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "retext-latin",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "retext-smartypants",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "retext-stringify",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -21225,6 +21175,13 @@
       "score": 1,
       "stacks": [
         "fastify-api"
+      ]
+    },
+    {
+      "name": "satteri",
+      "score": 1,
+      "stacks": [
+        "astro-react"
       ]
     },
     {
@@ -21725,6 +21682,13 @@
       ]
     },
     {
+      "name": "terser-webpack-plugin",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "test-exclude",
       "score": 1,
       "stacks": [
@@ -22089,24 +22053,10 @@
       ]
     },
     {
-      "name": "unist-util-find-after",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "unist-util-generated",
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "unist-util-modify-children",
-      "score": 1,
-      "stacks": [
-        "astro-react"
       ]
     },
     {
@@ -22117,10 +22067,10 @@
       ]
     },
     {
-      "name": "unist-util-visit-children",
+      "name": "unist-util-remove-position",
       "score": 1,
       "stacks": [
-        "astro-react"
+        "remix"
       ]
     },
     {
