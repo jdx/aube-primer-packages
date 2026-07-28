@@ -8,6 +8,10 @@ The generated files live in `data/`:
   verbatim and embeds metadata for every entry into its release binary.
 - `packages.txt` — newline-delimited names for quick inspection / diff.
 - `packages.sha256` — SHA-256 checksum for `packages.json`.
+- `popular.json` — JSON array of the top 100,000 npm package names by
+  last-month downloads. This broad typo- and squatting reference corpus stays
+  separate so it does not expand the resolver metadata primer.
+- `popular.sha256` — SHA-256 checksum for `popular.json`.
 - `transitives.json` — intermediate output from the mining step
   (`{ packages: [{ name, score, stacks }, ...] }`); checked in for
   reviewability and to make `SKIP_MINER=1` regenerations deterministic.
@@ -27,7 +31,12 @@ The list refreshes monthly via GitHub Actions. Two inputs feed `packages.json`:
    variants, …) that no popularity ranking can catch because nobody
    installs them directly.
 
-`scripts/generate.mjs` merges both inputs, keeping the output at exactly
+The broader `popular.json` ranking comes from the continuously updated
+[ecosyste.ms Packages API](https://packages.ecosyste.ms/). It contains names
+only, allowing aube to embed far wider coverage without fetching packuments
+for all 100,000 entries.
+
+`scripts/generate.mjs` merges both resolver inputs, keeping the output at exactly
 `TOP_N=2000` entries: the most-popular `(2000 - K)` packages plus every
 transitive with score `≥ MIN_STACKS` (default 5) that isn't already in
 the popularity list. The lowest-rank popularity entries are displaced.
@@ -42,7 +51,7 @@ npm run generate
 SKIP_MINER=1 npm run generate
 
 # Override defaults:
-TOP_N=2000 MIN_STACKS=5 npm run generate
+TOP_N=2000 POPULAR_TOP_N=100000 MIN_STACKS=5 npm run generate
 ```
 
 Add a stack in `data/seeds.json` when a major framework lands or an
