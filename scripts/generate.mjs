@@ -13,7 +13,9 @@
 //
 // Env overrides:
 //   TOP_N=2000                       output size
+//   POPULAR_TOP_N=100000             typo/squat reference corpus size
 //   PACKAGES_URL=<url>               popularity source (defaults to npm-rank)
+//   POPULAR_URL=<url>                broad popularity source (defaults to ecosyste.ms)
 //   MIN_STACKS=5                     transitive score threshold
 //   SKIP_MINER=1                     skip mining, use existing transitives.json
 //   TRANSITIVES_PATH=<path>          override transitives source (default: data/transitives.json)
@@ -29,7 +31,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 
 const top = Number(process.env.TOP_N ?? 2000)
+const popularTop = Number(process.env.POPULAR_TOP_N ?? 100000)
 const sourceUrl = process.env.PACKAGES_URL ?? 'https://tristan-f-r.github.io/npm-rank/PACKAGES.html'
+const popularUrl =
+  process.env.POPULAR_URL ??
+  'https://packages.ecosyste.ms/api/v1/registries/npmjs.org/package_names'
 const minStacks = Number(process.env.MIN_STACKS ?? 5)
 const transitivesPath = resolve(process.env.TRANSITIVES_PATH ?? `${ROOT}/data/transitives.json`)
 // Cap supplement at 10% of TOP_N so a pathologically low MIN_STACKS (or a
@@ -41,6 +47,9 @@ const outDir = `${ROOT}/data`
 
 if (!Number.isInteger(top) || top < 1) {
   throw new Error('TOP_N must be a positive integer')
+}
+if (!Number.isInteger(popularTop) || popularTop < 1) {
+  throw new Error('POPULAR_TOP_N must be a positive integer')
 }
 if (!Number.isInteger(minStacks) || minStacks < 1) {
   throw new Error('MIN_STACKS must be a positive integer')
@@ -55,6 +64,7 @@ if (!isTruthyEnv(process.env.SKIP_MINER)) {
 }
 
 const popular = parsePackageNames(await fetchText(sourceUrl))
+const broadPopular = await fetchPopularNames(popularUrl, popularTop)
 const transitives = loadTransitives(transitivesPath, minStacks)
 
 // Pick how many supplement slots we actually need: only transitives that
@@ -91,11 +101,47 @@ const json = `${JSON.stringify(names, null, 2)}\n`
 await writeFile(`${outDir}/packages.json`, json)
 await writeFile(`${outDir}/packages.txt`, `${names.join('\n')}\n`)
 await writeFile(`${outDir}/packages.sha256`, `${sha256(json)}  packages.json\n`)
+const popularJson = `${JSON.stringify(broadPopular)}\n`
+await writeFile(`${outDir}/popular.json`, popularJson)
+await writeFile(`${outDir}/popular.sha256`, `${sha256(popularJson)}  popular.json\n`)
 console.error(
   `wrote ${names.length} package names ` +
   `(${kept.length} popularity + ${supplement.length} transitives, ` +
   `threshold ≥${minStacks}, supplement cap ${supplementCap})`,
 )
+console.error(`wrote ${broadPopular.length} ranked package names to data/popular.json`)
+
+async function fetchPopularNames(url, count) {
+  const perPage = 1000
+  const pages = Math.ceil(count / perPage)
+  const names = []
+
+  for (let firstPage = 1; firstPage <= pages; firstPage += 10) {
+    const batch = []
+    for (let page = firstPage; page < Math.min(firstPage + 10, pages + 1); page++) {
+      const endpoint = new URL(url)
+      endpoint.searchParams.set('per_page', String(perPage))
+      endpoint.searchParams.set('sort', 'downloads')
+      endpoint.searchParams.set('page', String(page))
+      batch.push(fetchText(endpoint).then((text) => ({ page, values: JSON.parse(text) })))
+    }
+    const results = await Promise.all(batch)
+    results.sort((a, b) => a.page - b.page)
+    for (const { page, values } of results) {
+      if (!Array.isArray(values) || !values.every(isPackageName)) {
+        throw new Error(`${url}: page ${page} did not contain package names`)
+      }
+      names.push(...values)
+    }
+    console.error(`fetched ${Math.min(names.length, count)}/${count} broad popularity names`)
+  }
+
+  const unique = [...new Set(names)].slice(0, count)
+  if (unique.length !== count) {
+    throw new Error(`${url}: expected ${count} unique names, received ${unique.length}`)
+  }
+  return unique
+}
 
 function loadTransitives(path, threshold) {
   if (!existsSync(path)) {

@@ -30,7 +30,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/packages.json data/packages.txt data/packages.sha256 data/transitives.json
+          git add data/packages.json data/packages.txt data/packages.sha256 \
+            data/popular.json data/popular.sha256 data/transitives.json
           git commit -m "chore: refresh package rankings"
           git push
-
