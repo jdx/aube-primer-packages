@@ -113,12 +113,19 @@ console.error(`wrote ${broadPopular.length} ranked package names to data/popular
 
 async function fetchPopularNames(url, count) {
   const perPage = 1000
-  const pages = Math.ceil(count / perPage)
+  const requiredPages = Math.ceil(count / perPage)
+  // Rankings can shift between offset-paginated requests, causing a package
+  // to appear on two adjacent pages. Fetch a bounded number of trailing pages
+  // so deduplication can still produce the requested corpus size.
+  const maxPages = requiredPages + Math.max(10, Math.ceil(requiredPages / 10))
   const names = []
+  const seen = new Set()
+  let nextPage = 1
 
-  for (let firstPage = 1; firstPage <= pages; firstPage += 10) {
+  while (names.length < count && nextPage <= maxPages) {
     const batch = []
-    for (let page = firstPage; page < Math.min(firstPage + 10, pages + 1); page++) {
+    const lastPage = Math.min(nextPage + 9, maxPages)
+    for (let page = nextPage; page <= lastPage; page++) {
       const endpoint = new URL(url)
       endpoint.searchParams.set('per_page', String(perPage))
       endpoint.searchParams.set('sort', 'downloads')
@@ -131,16 +138,22 @@ async function fetchPopularNames(url, count) {
       if (!Array.isArray(values) || !values.every(isPackageName)) {
         throw new Error(`${url}: page ${page} did not contain package names`)
       }
-      names.push(...values)
+      for (const name of values) {
+        if (seen.has(name)) continue
+        seen.add(name)
+        names.push(name)
+      }
     }
+    nextPage = lastPage + 1
     console.error(`fetched ${Math.min(names.length, count)}/${count} broad popularity names`)
   }
 
-  const unique = [...new Set(names)].slice(0, count)
-  if (unique.length !== count) {
-    throw new Error(`${url}: expected ${count} unique names, received ${unique.length}`)
+  if (names.length < count) {
+    throw new Error(
+      `${url}: expected ${count} unique names, received ${names.length} after ${maxPages} pages`,
+    )
   }
-  return unique
+  return names.slice(0, count)
 }
 
 function loadTransitives(path, threshold) {
@@ -181,7 +194,7 @@ function runScript(script) {
 
 async function fetchText(url) {
   for (let attempt = 1; attempt <= 6; attempt++) {
-    const res = await fetch(url)
+    const res = await fetch(url, { signal: AbortSignal.timeout(30000) })
     if (res.ok) return res.text()
     if (res.status !== 429 && res.status < 500) {
       throw new Error(`${url}: HTTP ${res.status}`)
