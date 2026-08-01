@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:23:27.847Z",
+  "generated_at": "2026-08-01T06:02:41.650Z",
   "source": {
     "seeds_file": "data/seeds.json",
     "stack_count": 33,
@@ -2346,20 +2346,6 @@
       ]
     },
     {
-      "name": "buffer-from",
-      "score": 8,
-      "stacks": [
-        "drizzle-postgres",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "nest-api",
-        "nuxt-ts",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "call-bind-apply-helpers",
       "score": 8,
       "stacks": [
@@ -2538,20 +2524,6 @@
         "nest-api",
         "nuxt-ts",
         "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "is-core-module",
-      "score": 8,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "rollup-ts",
         "webpack-react"
       ]
     },
@@ -2846,6 +2818,19 @@
       ]
     },
     {
+      "name": "buffer-from",
+      "score": 7,
+      "stacks": [
+        "drizzle-postgres",
+        "gatsby-react",
+        "jest-ts",
+        "nest-api",
+        "nuxt-ts",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "call-bound",
       "score": 7,
       "stacks": [
@@ -3002,6 +2987,19 @@
       ]
     },
     {
+      "name": "is-core-module",
+      "score": 7,
+      "stacks": [
+        "gatsby-react",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "remix",
+        "rollup-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "is-stream",
       "score": 7,
       "stacks": [
@@ -3145,32 +3143,6 @@
       ]
     },
     {
-      "name": "path-parse",
-      "score": 7,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "rollup-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "resolve",
-      "score": 7,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "rollup-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "side-channel",
       "score": 7,
       "stacks": [
@@ -3233,19 +3205,6 @@
         "node-cli",
         "nuxt-ts",
         "remix"
-      ]
-    },
-    {
-      "name": "supports-preserve-symlinks-flag",
-      "score": 7,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "rollup-ts",
-        "webpack-react"
       ]
     },
     {
@@ -3623,6 +3582,18 @@
       ]
     },
     {
+      "name": "path-parse",
+      "score": 6,
+      "stacks": [
+        "gatsby-react",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "rollup-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "postcss-selector-parser",
       "score": 6,
       "stacks": [
@@ -3667,6 +3638,18 @@
         "nest-api",
         "nuxt-ts",
         "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "resolve",
+      "score": 6,
+      "stacks": [
+        "gatsby-react",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "rollup-ts",
         "webpack-react"
       ]
     },
@@ -3739,6 +3722,18 @@
         "nest-api",
         "nuxt-ts",
         "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "supports-preserve-symlinks-flag",
+      "score": 6,
+      "stacks": [
+        "gatsby-react",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "rollup-ts",
         "webpack-react"
       ]
     },
@@ -4399,17 +4394,6 @@
       ]
     },
     {
-      "name": "is-plain-obj",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "monorepo-tooling",
-        "node-cli",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "is-reference",
       "score": 5,
       "stacks": [
@@ -4418,17 +4402,6 @@
         "rollup-ts",
         "sveltekit-ts",
         "vite-svelte-ts"
-      ]
-    },
-    {
-      "name": "isarray",
-      "score": 5,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix"
       ]
     },
     {
@@ -4948,16 +4921,6 @@
       ]
     },
     {
-      "name": "core-util-is",
-      "score": 4,
-      "stacks": [
-        "cypress",
-        "monorepo-tooling",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "css-select",
       "score": 4,
       "stacks": [
@@ -5158,6 +5121,26 @@
       ]
     },
     {
+      "name": "is-inside-container",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "is-plain-obj",
+      "score": 4,
+      "stacks": [
+        "astro-react",
+        "node-cli",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "is-promise",
       "score": 4,
       "stacks": [
@@ -5185,6 +5168,16 @@
         "monorepo-tooling",
         "nuxt-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "isarray",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts",
+        "nuxt-ts",
+        "remix"
       ]
     },
     {
@@ -5519,6 +5512,15 @@
         "gatsby-react",
         "nuxt-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "@napi-rs/lzma-linux-x64-gnu",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "remix",
+        "rollup-ts"
       ]
     },
     {
@@ -5972,21 +5974,21 @@
       ]
     },
     {
+      "name": "bundle-name",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "call-bind",
       "score": 3,
       "stacks": [
         "gatsby-react",
         "next-react-ts",
         "remix"
-      ]
-    },
-    {
-      "name": "camelcase",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling"
       ]
     },
     {
@@ -6062,15 +6064,6 @@
       ]
     },
     {
-      "name": "concat-stream",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nest-api"
-      ]
-    },
-    {
       "name": "confbox",
       "score": 3,
       "stacks": [
@@ -6086,6 +6079,15 @@
         "astro-react",
         "nuxt-ts",
         "react-router-app"
+      ]
+    },
+    {
+      "name": "core-util-is",
+      "score": 3,
+      "stacks": [
+        "cypress",
+        "nuxt-ts",
+        "remix"
       ]
     },
     {
@@ -6143,6 +6145,24 @@
       ]
     },
     {
+      "name": "default-browser",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "default-browser-id",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "define-data-property",
       "score": 3,
       "stacks": [
@@ -6185,15 +6205,6 @@
         "astro-react",
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "dot-prop",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts"
       ]
     },
     {
@@ -6557,15 +6568,6 @@
       ]
     },
     {
-      "name": "is-inside-container",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "is-interactive",
       "score": 3,
       "stacks": [
@@ -6626,15 +6628,6 @@
         "gatsby-react",
         "next-react-ts",
         "ts-eslint"
-      ]
-    },
-    {
-      "name": "kind-of",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "webpack-react"
       ]
     },
     {
@@ -6881,15 +6874,6 @@
       ]
     },
     {
-      "name": "process-nextick-args",
-      "score": 3,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "prop-types",
       "score": 3,
       "stacks": [
@@ -6980,6 +6964,15 @@
       ]
     },
     {
+      "name": "run-applescript",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "run-async",
       "score": 3,
       "stacks": [
@@ -7058,15 +7051,6 @@
         "astro-react",
         "gatsby-react",
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "split2",
-      "score": 3,
-      "stacks": [
-        "drizzle-postgres",
-        "fastify-api",
-        "monorepo-tooling"
       ]
     },
     {
@@ -7160,15 +7144,6 @@
       ]
     },
     {
-      "name": "typedarray",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nest-api"
-      ]
-    },
-    {
       "name": "ufo",
       "score": 3,
       "stacks": [
@@ -7247,15 +7222,6 @@
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "xtend",
-      "score": 3,
-      "stacks": [
-        "drizzle-postgres",
-        "monorepo-tooling",
-        "remix"
       ]
     },
     {
@@ -8315,22 +8281,6 @@
       ]
     },
     {
-      "name": "@jest/get-type",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@jest/schemas",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "@lezer/common",
       "score": 2,
       "stacks": [
@@ -8832,14 +8782,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "@sinclair/typebox",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
       ]
     },
     {
@@ -9675,14 +9617,6 @@
       ]
     },
     {
-      "name": "arrify",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "ast-types-flow",
       "score": 2,
       "stacks": [
@@ -9851,14 +9785,6 @@
       ]
     },
     {
-      "name": "bundle-name",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "busboy",
       "score": 2,
       "stacks": [
@@ -9896,6 +9822,14 @@
       "stacks": [
         "gatsby-react",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "camelcase",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts"
       ]
     },
     {
@@ -9976,6 +9910,14 @@
       "stacks": [
         "cypress",
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "concat-stream",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "nest-api"
       ]
     },
     {
@@ -10075,30 +10017,6 @@
       ]
     },
     {
-      "name": "decamelize",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "default-browser",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "default-browser-id",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "defaults",
       "score": 2,
       "stacks": [
@@ -10160,6 +10078,14 @@
       "stacks": [
         "gatsby-react",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "dot-prop",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts"
       ]
     },
     {
@@ -10635,14 +10561,6 @@
       ]
     },
     {
-      "name": "is-ci",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "is-data-view",
       "score": 2,
       "stacks": [
@@ -10720,14 +10638,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "is-obj",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
       ]
     },
     {
@@ -10867,27 +10777,11 @@
       ]
     },
     {
-      "name": "jest-diff",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "jiti",
       "score": 2,
       "stacks": [
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "json-stringify-safe",
-      "score": 2,
-      "stacks": [
-        "cypress",
-        "monorepo-tooling"
       ]
     },
     {
@@ -10904,6 +10798,14 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "kind-of",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "webpack-react"
       ]
     },
     {
@@ -11200,14 +11102,6 @@
       "stacks": [
         "monorepo-tooling",
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "normalize-package-data",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "remix"
       ]
     },
     {
@@ -11667,14 +11561,6 @@
       ]
     },
     {
-      "name": "pretty-format",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "pretty-ms",
       "score": 2,
       "stacks": [
@@ -11687,6 +11573,14 @@
       "score": 2,
       "stacks": [
         "monorepo-tooling",
+        "remix"
+      ]
+    },
+    {
+      "name": "process-nextick-args",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
         "remix"
       ]
     },
@@ -11715,14 +11609,6 @@
       ]
     },
     {
-      "name": "quick-lru",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "radix3",
       "score": 2,
       "stacks": [
@@ -11736,22 +11622,6 @@
       "stacks": [
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "react-is-18",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "react-is-19",
-      "score": 2,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling"
       ]
     },
     {
@@ -11899,14 +11769,6 @@
       ]
     },
     {
-      "name": "run-applescript",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "safe-array-concat",
       "score": 2,
       "stacks": [
@@ -12040,6 +11902,14 @@
       "stacks": [
         "monorepo-tooling",
         "remix"
+      ]
+    },
+    {
+      "name": "split2",
+      "score": 2,
+      "stacks": [
+        "drizzle-postgres",
+        "fastify-api"
       ]
     },
     {
@@ -12243,22 +12113,6 @@
       ]
     },
     {
-      "name": "through",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "through2",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "remix"
-      ]
-    },
-    {
       "name": "tinyclip",
       "score": 2,
       "stacks": [
@@ -12288,14 +12142,6 @@
       "stacks": [
         "gatsby-react",
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "tree-kill",
-      "score": 2,
-      "stacks": [
-        "cypress",
-        "monorepo-tooling"
       ]
     },
     {
@@ -12368,6 +12214,14 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "typedarray",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "nest-api"
       ]
     },
     {
@@ -12720,6 +12574,14 @@
       "stacks": [
         "nuxt-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "xtend",
+      "score": 2,
+      "stacks": [
+        "drizzle-postgres",
+        "remix"
       ]
     },
     {
@@ -13420,6 +13282,20 @@
       ]
     },
     {
+      "name": "@conventional-changelog/git-client",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@conventional-changelog/template",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
       "name": "@cypress/request",
       "score": 1,
       "stacks": [
@@ -13882,13 +13758,6 @@
       ]
     },
     {
-      "name": "@hutson/parse-repository-url",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "@img/sharp-freebsd-wasm32",
       "score": 1,
       "stacks": [
@@ -13973,6 +13842,13 @@
       ]
     },
     {
+      "name": "@jest/get-type",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
       "name": "@jest/globals",
       "score": 1,
       "stacks": [
@@ -13988,6 +13864,13 @@
     },
     {
       "name": "@jest/reporters",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
+      "name": "@jest/schemas",
       "score": 1,
       "stacks": [
         "jest-ts"
@@ -15996,6 +15879,41 @@
       ]
     },
     {
+      "name": "@simple-libs/child-process-utils",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@simple-libs/hosted-git-info",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@simple-libs/normalize-package-data",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@simple-libs/stream-utils",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "@sinclair/typebox",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
       "name": "@sindresorhus/slugify",
       "score": 1,
       "stacks": [
@@ -16514,13 +16432,6 @@
       ]
     },
     {
-      "name": "@types/minimist",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "@types/ms",
       "score": 1,
       "stacks": [
@@ -16532,13 +16443,6 @@
       "score": 1,
       "stacks": [
         "astro-react"
-      ]
-    },
-    {
-      "name": "@types/normalize-package-data",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -17004,13 +16908,6 @@
       ]
     },
     {
-      "name": "add-stream",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "address",
       "score": 1,
       "stacks": [
@@ -17081,13 +16978,6 @@
       ]
     },
     {
-      "name": "aproba",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "arch",
       "score": 1,
       "stacks": [
@@ -17109,10 +16999,17 @@
       ]
     },
     {
-      "name": "array-ify",
+      "name": "argue-cli",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "arrify",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -17480,13 +17377,6 @@
       ]
     },
     {
-      "name": "byte-size",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "bytestreamjs",
       "score": 1,
       "stacks": [
@@ -17519,13 +17409,6 @@
       "score": 1,
       "stacks": [
         "cypress"
-      ]
-    },
-    {
-      "name": "camelcase-keys",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -17697,13 +17580,6 @@
       ]
     },
     {
-      "name": "color-support",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "colord",
       "score": 1,
       "stacks": [
@@ -17719,13 +17595,6 @@
     },
     {
       "name": "columnify",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "compare-func",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -17788,13 +17657,6 @@
       ]
     },
     {
-      "name": "console-control-strings",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "constant-case",
       "score": 1,
       "stacks": [
@@ -17802,14 +17664,14 @@
       ]
     },
     {
-      "name": "conventional-changelog-angular",
+      "name": "conventional-changelog",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
       ]
     },
     {
-      "name": "conventional-changelog-core",
+      "name": "conventional-changelog-angular",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -18026,13 +17888,6 @@
       ]
     },
     {
-      "name": "dargs",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "dashdash",
       "score": 1,
       "stacks": [
@@ -18054,13 +17909,6 @@
       ]
     },
     {
-      "name": "dateformat",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "db0",
       "score": 1,
       "stacks": [
@@ -18068,10 +17916,10 @@
       ]
     },
     {
-      "name": "decamelize-keys",
+      "name": "decamelize",
       "score": 1,
       "stacks": [
-        "monorepo-tooling"
+        "gatsby-react"
       ]
     },
     {
@@ -18677,6 +18525,13 @@
       ]
     },
     {
+      "name": "fd-package-json",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
       "name": "file-loader",
       "score": 1,
       "stacks": [
@@ -18929,38 +18784,10 @@
       ]
     },
     {
-      "name": "get-pkg-repo",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "getpass",
       "score": 1,
       "stacks": [
         "cypress"
-      ]
-    },
-    {
-      "name": "git-raw-commits",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "git-remote-origin-url",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "git-semver-tags",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -18972,13 +18799,6 @@
     },
     {
       "name": "git-url-parse",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "gitconfiglocal",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -19108,20 +18928,6 @@
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "hard-rejection",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "has-unicode",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -19405,6 +19211,13 @@
       ]
     },
     {
+      "name": "is-ci",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "is-decimal",
       "score": 1,
       "stacks": [
@@ -19468,6 +19281,13 @@
       ]
     },
     {
+      "name": "is-obj",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "is-property",
       "score": 1,
       "stacks": [
@@ -19504,13 +19324,6 @@
     },
     {
       "name": "is-subdir",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "is-text-path",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -19609,6 +19422,13 @@
     },
     {
       "name": "jest-config",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
+      "name": "jest-diff",
       "score": 1,
       "stacks": [
         "jest-ts"
@@ -19769,13 +19589,6 @@
       ]
     },
     {
-      "name": "json-parse-better-errors",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "json-schema",
       "score": 1,
       "stacks": [
@@ -19797,6 +19610,13 @@
       ]
     },
     {
+      "name": "json-stringify-safe",
+      "score": 1,
+      "stacks": [
+        "cypress"
+      ]
+    },
+    {
       "name": "json2mq",
       "score": 1,
       "stacks": [
@@ -19805,13 +19625,6 @@
     },
     {
       "name": "jsonparse",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "JSONStream",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -19986,13 +19799,6 @@
       ]
     },
     {
-      "name": "lodash.ismatch",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "lodash.map",
       "score": 1,
       "stacks": [
@@ -20091,13 +19897,6 @@
       ]
     },
     {
-      "name": "magic-regexp",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "magic-string-ast",
       "score": 1,
       "stacks": [
@@ -20123,13 +19922,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "map-obj",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -20228,13 +20020,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "meow",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -20420,13 +20205,6 @@
       ]
     },
     {
-      "name": "min-indent",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "mini-css-extract-plugin",
       "score": 1,
       "stacks": [
@@ -20438,13 +20216,6 @@
       "score": 1,
       "stacks": [
         "tailwind-react"
-      ]
-    },
-    {
-      "name": "minimist-options",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -20494,13 +20265,6 @@
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "modify-values",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -20634,6 +20398,13 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "normalize-package-data",
+      "score": 1,
+      "stacks": [
+        "remix"
       ]
     },
     {
@@ -20798,38 +20569,10 @@
       ]
     },
     {
-      "name": "p-map-series",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "p-pipe",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "p-reduce",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "p-retry",
       "score": 1,
       "stacks": [
         "webpack-react"
-      ]
-    },
-    {
-      "name": "p-waterfall",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -21162,6 +20905,13 @@
       ]
     },
     {
+      "name": "pretty-format",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
       "name": "prisma",
       "score": 1,
       "stacks": [
@@ -21302,6 +21052,13 @@
       ]
     },
     {
+      "name": "quick-lru",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
       "name": "randombytes",
       "score": 1,
       "stacks": [
@@ -21337,6 +21094,20 @@
       ]
     },
     {
+      "name": "react-is-18",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
+      "name": "react-is-19",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
       "name": "react-redux",
       "score": 1,
       "stacks": [
@@ -21359,20 +21130,6 @@
     },
     {
       "name": "read-cmd-shim",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "read-pkg",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "read-pkg-up",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -21421,13 +21178,6 @@
       ]
     },
     {
-      "name": "redent",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "redis-errors",
       "score": 1,
       "stacks": [
@@ -21460,13 +21210,6 @@
       "score": 1,
       "stacks": [
         "astro-react"
-      ]
-    },
-    {
-      "name": "regexp-tree",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -21911,13 +21654,6 @@
       ]
     },
     {
-      "name": "split",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "split-on-first",
       "score": 1,
       "stacks": [
@@ -22065,13 +21801,6 @@
       ]
     },
     {
-      "name": "strip-indent",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "strip-literal",
       "score": 1,
       "stacks": [
@@ -22149,13 +21878,6 @@
       ]
     },
     {
-      "name": "text-extensions",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "text-table",
       "score": 1,
       "stacks": [
@@ -22188,6 +21910,20 @@
       "score": 1,
       "stacks": [
         "cypress"
+      ]
+    },
+    {
+      "name": "through",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
+      "name": "through2",
+      "score": 1,
+      "stacks": [
+        "remix"
       ]
     },
     {
@@ -22289,14 +22025,14 @@
       ]
     },
     {
-      "name": "treeverse",
+      "name": "tree-kill",
       "score": 1,
       "stacks": [
-        "monorepo-tooling"
+        "cypress"
       ]
     },
     {
-      "name": "trim-newlines",
+      "name": "treeverse",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -22377,13 +22113,6 @@
       "score": 1,
       "stacks": [
         "jest-ts"
-      ]
-    },
-    {
-      "name": "type-level-regexp",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -22587,13 +22316,6 @@
       "score": 1,
       "stacks": [
         "nuxt-ts"
-      ]
-    },
-    {
-      "name": "upath",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -22958,13 +22680,6 @@
       "score": 1,
       "stacks": [
         "vitest-ts"
-      ]
-    },
-    {
-      "name": "wide-align",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
