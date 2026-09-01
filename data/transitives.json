@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T06:02:41.650Z",
+  "generated_at": "2026-09-01T05:11:15.901Z",
   "source": {
     "seeds_file": "data/seeds.json",
     "stack_count": 33,
@@ -638,6 +638,53 @@
       ]
     },
     {
+      "name": "picomatch",
+      "score": 18,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
+        "rollup-ts",
+        "sveltekit-ts",
+        "ts-eslint",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "score": 17,
+      "stacks": [
+        "astro-react",
+        "express-api",
+        "fastify-api",
+        "gatsby-react",
+        "jest-ts",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "rollup-ts",
+        "sveltekit-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "picocolors",
       "score": 17,
       "stacks": [
@@ -661,17 +708,36 @@
       ]
     },
     {
-      "name": "picomatch",
-      "score": 17,
+      "name": "debug",
+      "score": 15,
       "stacks": [
         "astro-react",
+        "cypress",
+        "express-api",
         "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "mui-app",
+        "nest-api",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "ts-eslint",
+        "vite-solid-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "fdir",
+      "score": 15,
+      "stacks": [
+        "astro-react",
         "jest-ts",
         "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
-        "parcel",
-        "remix",
+        "prisma-app",
         "rollup-ts",
         "sveltekit-ts",
         "ts-eslint",
@@ -684,47 +750,23 @@
       ]
     },
     {
-      "name": "tslib",
-      "score": 17,
+      "name": "ms",
+      "score": 15,
       "stacks": [
         "astro-react",
         "cypress",
+        "express-api",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
+        "mui-app",
         "nest-api",
         "next-react-ts",
         "nuxt-ts",
-        "parcel",
-        "rollup-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@jridgewell/sourcemap-codec",
-      "score": 16,
-      "stacks": [
-        "astro-react",
-        "express-api",
-        "fastify-api",
-        "gatsby-react",
-        "jest-ts",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
+        "prisma-app",
         "remix",
-        "rollup-ts",
-        "sveltekit-ts",
+        "ts-eslint",
         "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts",
         "webpack-react"
       ]
     },
@@ -769,33 +811,109 @@
       ]
     },
     {
-      "name": "debug",
+      "name": "semver",
       "score": 14,
       "stacks": [
         "astro-react",
-        "cypress",
-        "express-api",
+        "fastify-api",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
+        "ts-eslint",
+        "vite-solid-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "source-map-js",
+      "score": 14,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "sveltekit-ts",
+        "tailwind-react",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "score": 13,
+      "stacks": [
+        "astro-react",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
         "mui-app",
-        "nest-api",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
-        "ts-eslint",
+        "vite-solid-ts",
+        "vite-vue-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "detect-libc",
+      "score": 13,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "next-react-ts",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "escalade",
+      "score": 13,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "node-cli",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
+        "tailwind-react",
         "vite-solid-ts",
         "webpack-react"
       ]
     },
     {
       "name": "fsevents",
-      "score": 14,
+      "score": 13,
       "stacks": [
         "astro-react",
         "drizzle-postgres",
         "gatsby-react",
-        "jest-ts",
         "nuxt-ts",
         "playwright",
         "remix",
@@ -806,45 +924,6 @@
         "vite-svelte-ts",
         "vite-vue-ts",
         "vitest-ts"
-      ]
-    },
-    {
-      "name": "ms",
-      "score": 14,
-      "stacks": [
-        "astro-react",
-        "cypress",
-        "express-api",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "mui-app",
-        "nest-api",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "ts-eslint",
-        "vite-solid-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "fdir",
-      "score": 13,
-      "stacks": [
-        "astro-react",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "rollup-ts",
-        "sveltekit-ts",
-        "ts-eslint",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
       ]
     },
     {
@@ -886,35 +965,54 @@
       ]
     },
     {
-      "name": "semver",
+      "name": "react",
       "score": 13,
       "stacks": [
+        "antd-app",
         "astro-react",
-        "fastify-api",
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
+        "mui-app",
         "next-react-ts",
-        "nuxt-ts",
-        "parcel",
+        "prisma-app",
+        "react-router-app",
+        "react-state",
         "remix",
-        "ts-eslint",
-        "vite-solid-ts",
-        "vitest-ts",
+        "tailwind-react",
+        "trpc-app",
+        "vite-react-ts",
         "webpack-react"
       ]
     },
     {
-      "name": "source-map-js",
+      "name": "scheduler",
+      "score": 13,
+      "stacks": [
+        "antd-app",
+        "astro-react",
+        "gatsby-react",
+        "mui-app",
+        "next-react-ts",
+        "prisma-app",
+        "react-router-app",
+        "react-state",
+        "remix",
+        "tailwind-react",
+        "trpc-app",
+        "vite-react-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "tinyglobby",
       "score": 13,
       "stacks": [
         "astro-react",
-        "gatsby-react",
+        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
-        "remix",
+        "prisma-app",
         "sveltekit-ts",
-        "tailwind-react",
+        "ts-eslint",
         "vite-react-ts",
         "vite-solid-ts",
         "vite-svelte-ts",
@@ -924,16 +1022,16 @@
       ]
     },
     {
-      "name": "@babel/helper-validator-identifier",
+      "name": "@babel/helper-string-parser",
       "score": 12,
       "stacks": [
         "astro-react",
         "gatsby-react",
         "jest-ts",
-        "monorepo-tooling",
         "mui-app",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "vite-solid-ts",
         "vite-vue-ts",
@@ -942,38 +1040,56 @@
       ]
     },
     {
-      "name": "escalade",
+      "name": "@babel/parser",
       "score": 12,
       "stacks": [
         "astro-react",
         "gatsby-react",
         "jest-ts",
-        "monorepo-tooling",
+        "mui-app",
         "next-react-ts",
-        "node-cli",
         "nuxt-ts",
-        "parcel",
+        "prisma-app",
         "remix",
-        "tailwind-react",
         "vite-solid-ts",
+        "vite-vue-ts",
+        "vitest-ts",
         "webpack-react"
       ]
     },
     {
-      "name": "react",
+      "name": "@babel/types",
       "score": 12,
       "stacks": [
-        "antd-app",
         "astro-react",
         "gatsby-react",
+        "jest-ts",
         "mui-app",
         "next-react-ts",
-        "react-router-app",
-        "react-state",
+        "nuxt-ts",
+        "prisma-app",
         "remix",
-        "tailwind-react",
-        "trpc-app",
-        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-vue-ts",
+        "vitest-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "@types/estree",
+      "score": 12,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "rollup-ts",
+        "sveltekit-ts",
+        "ts-eslint",
+        "vite-svelte-ts",
+        "vitest-ts",
         "webpack-react"
       ]
     },
@@ -996,144 +1112,6 @@
       ]
     },
     {
-      "name": "scheduler",
-      "score": 12,
-      "stacks": [
-        "antd-app",
-        "astro-react",
-        "gatsby-react",
-        "mui-app",
-        "next-react-ts",
-        "react-router-app",
-        "react-state",
-        "remix",
-        "tailwind-react",
-        "trpc-app",
-        "vite-react-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "tinyglobby",
-      "score": 12,
-      "stacks": [
-        "astro-react",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "ts-eslint",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@babel/helper-string-parser",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "vite-solid-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@babel/parser",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "vite-solid-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@babel/types",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix",
-        "vite-solid-ts",
-        "vite-vue-ts",
-        "vitest-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "@emnapi/core",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@emnapi/runtime",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@emnapi/wasi-threads",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
       "name": "@jridgewell/gen-mapping",
       "score": 11,
       "stacks": [
@@ -1151,71 +1129,20 @@
       ]
     },
     {
-      "name": "@napi-rs/wasm-runtime",
+      "name": "acorn",
       "score": 11,
       "stacks": [
-        "astro-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@tybys/wasm-util",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@types/estree",
-      "score": 11,
-      "stacks": [
-        "astro-react",
+        "express-api",
+        "fastify-api",
         "gatsby-react",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
-        "rollup-ts",
         "sveltekit-ts",
         "ts-eslint",
         "vite-svelte-ts",
-        "vitest-ts",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "detect-libc",
-      "score": 11,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "next-react-ts",
-        "nuxt-ts",
-        "parcel",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -1287,6 +1214,23 @@
       ]
     },
     {
+      "name": "lru-cache",
+      "score": 11,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "vite-solid-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "path-key",
       "score": 11,
       "stacks": [
@@ -1320,19 +1264,35 @@
       ]
     },
     {
-      "name": "acorn",
+      "name": "ansi-regex",
       "score": 10,
       "stacks": [
-        "express-api",
-        "fastify-api",
+        "astro-react",
+        "cypress",
         "gatsby-react",
-        "next-react-ts",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
         "nuxt-ts",
+        "prisma-app",
         "remix",
-        "sveltekit-ts",
-        "ts-eslint",
-        "vite-svelte-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "score": 10,
+      "stacks": [
+        "astro-react",
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -1400,22 +1360,6 @@
       ]
     },
     {
-      "name": "csstype",
-      "score": 10,
-      "stacks": [
-        "antd-app",
-        "gatsby-react",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "prisma-app",
-        "remix",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-vue-ts"
-      ]
-    },
-    {
       "name": "electron-to-chromium",
       "score": 10,
       "stacks": [
@@ -1429,6 +1373,22 @@
         "tailwind-react",
         "vite-solid-ts",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "emoji-regex",
+      "score": 10,
+      "stacks": [
+        "astro-react",
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -1448,22 +1408,6 @@
       ]
     },
     {
-      "name": "lru-cache",
-      "score": 10,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "node-cli",
-        "nuxt-ts",
-        "remix",
-        "vite-solid-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "node-releases",
       "score": 10,
       "stacks": [
@@ -1476,6 +1420,22 @@
         "remix",
         "tailwind-react",
         "vite-solid-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "score": 10,
+      "stacks": [
+        "cypress",
+        "express-api",
+        "gatsby-react",
+        "monorepo-tooling",
+        "nest-api",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
         "webpack-react"
       ]
     },
@@ -1508,6 +1468,38 @@
         "prisma-app",
         "remix",
         "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "strip-ansi",
+      "score": 10,
+      "stacks": [
+        "astro-react",
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "tslib",
+      "score": 10,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "nest-api",
+        "next-react-ts",
+        "parcel",
+        "prisma-app",
+        "rollup-ts",
         "webpack-react"
       ]
     },
@@ -1634,6 +1626,246 @@
       ]
     },
     {
+      "name": "@oxc-project/types",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
       "name": "@types/node",
       "score": 9,
       "stacks": [
@@ -1642,40 +1874,40 @@
         "fastify-api",
         "gatsby-react",
         "jest-ts",
+        "next-react-ts",
+        "prisma-app",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "score": 9,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
         "monorepo-tooling",
         "next-react-ts",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
         "remix",
-        "webpack-react"
+        "ts-eslint"
       ]
     },
     {
-      "name": "ansi-regex",
+      "name": "brace-expansion",
       "score": 9,
       "stacks": [
-        "astro-react",
-        "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
+        "next-react-ts",
         "node-cli",
         "nuxt-ts",
+        "prisma-app",
         "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "ansi-styles",
-      "score": 9,
-      "stacks": [
-        "astro-react",
-        "cypress",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "parcel",
-        "remix"
+        "ts-eslint"
       ]
     },
     {
@@ -1709,18 +1941,18 @@
       ]
     },
     {
-      "name": "emoji-regex",
+      "name": "csstype",
       "score": 9,
       "stacks": [
-        "astro-react",
-        "cypress",
+        "antd-app",
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
+        "mui-app",
         "next-react-ts",
-        "node-cli",
         "nuxt-ts",
-        "remix"
+        "remix",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-vue-ts"
       ]
     },
     {
@@ -1735,6 +1967,36 @@
         "nuxt-ts",
         "prisma-app",
         "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "is-extglob",
+      "score": 9,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "next-react-ts",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
+        "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "is-glob",
+      "score": 9,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "next-react-ts",
+        "nuxt-ts",
+        "parcel",
+        "prisma-app",
+        "remix",
+        "ts-eslint",
         "webpack-react"
       ]
     },
@@ -1949,37 +2211,37 @@
       ]
     },
     {
-      "name": "safe-buffer",
+      "name": "minimatch",
       "score": 9,
       "stacks": [
-        "cypress",
-        "express-api",
         "gatsby-react",
+        "jest-ts",
         "monorepo-tooling",
-        "nest-api",
-        "nuxt-ts",
-        "parcel",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "safer-buffer",
-      "score": 9,
-      "stacks": [
-        "cypress",
-        "express-api",
-        "gatsby-react",
-        "monorepo-tooling",
-        "nest-api",
+        "next-react-ts",
         "node-cli",
+        "nuxt-ts",
         "prisma-app",
         "remix",
-        "webpack-react"
+        "ts-eslint"
       ]
     },
     {
-      "name": "strip-ansi",
+      "name": "rolldown",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "sveltekit-ts",
+        "vite-react-ts",
+        "vite-solid-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
+      ]
+    },
+    {
+      "name": "string-width",
       "score": 9,
       "stacks": [
         "astro-react",
@@ -1989,8 +2251,8 @@
         "monorepo-tooling",
         "node-cli",
         "nuxt-ts",
-        "remix",
-        "webpack-react"
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -2009,6 +2271,21 @@
       ]
     },
     {
+      "name": "undici-types",
+      "score": 9,
+      "stacks": [
+        "drizzle-postgres",
+        "express-api",
+        "fastify-api",
+        "gatsby-react",
+        "jest-ts",
+        "next-react-ts",
+        "prisma-app",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "vite",
       "score": 9,
       "stacks": [
@@ -2021,6 +2298,36 @@
         "vite-svelte-ts",
         "vite-vue-ts",
         "vitest-ts"
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "yallist",
+      "score": 9,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "vite-solid-ts"
       ]
     },
     {
@@ -2080,7 +2387,7 @@
       ]
     },
     {
-      "name": "@oxc-project/types",
+      "name": "@rolldown/binding-android-arm-eabi",
       "score": 8,
       "stacks": [
         "astro-react",
@@ -2091,258 +2398,6 @@
         "vite-svelte-ts",
         "vite-vue-ts",
         "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-android-arm64",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-darwin-arm64",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-darwin-x64",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-freebsd-x64",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm-gnueabihf",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm64-gnu",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-arm64-musl",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-ppc64-gnu",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-s390x-gnu",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-x64-gnu",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-linux-x64-musl",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-openharmony-arm64",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-wasm32-wasi",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-win32-arm64-msvc",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/binding-win32-x64-msvc",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "@rolldown/pluginutils",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
-      "name": "balanced-match",
-      "score": 8,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "node-cli",
-        "nuxt-ts",
-        "remix",
-        "ts-eslint"
-      ]
-    },
-    {
-      "name": "brace-expansion",
-      "score": 8,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "node-cli",
-        "nuxt-ts",
-        "remix",
-        "ts-eslint"
       ]
     },
     {
@@ -2357,6 +2412,20 @@
         "next-react-ts",
         "remix",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "chalk",
+      "score": 8,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "parcel",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -2430,6 +2499,34 @@
       ]
     },
     {
+      "name": "escape-string-regexp",
+      "score": 8,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "mui-app",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "ts-eslint"
+      ]
+    },
+    {
+      "name": "execa",
+      "score": 8,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "get-intrinsic",
       "score": 8,
       "stacks": [
@@ -2455,6 +2552,20 @@
         "next-react-ts",
         "remix",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "get-stream",
+      "score": 8,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -2500,17 +2611,17 @@
       ]
     },
     {
-      "name": "iconv-lite",
+      "name": "human-signals",
       "score": 8,
       "stacks": [
-        "express-api",
+        "cypress",
         "gatsby-react",
+        "jest-ts",
         "monorepo-tooling",
-        "nest-api",
         "node-cli",
+        "nuxt-ts",
         "prisma-app",
-        "remix",
-        "webpack-react"
+        "remix"
       ]
     },
     {
@@ -2519,40 +2630,40 @@
       "stacks": [
         "express-api",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
         "nest-api",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "webpack-react"
       ]
     },
     {
-      "name": "is-extglob",
+      "name": "is-stream",
       "score": 8,
       "stacks": [
+        "cypress",
         "gatsby-react",
+        "jest-ts",
         "monorepo-tooling",
-        "next-react-ts",
+        "node-cli",
         "nuxt-ts",
-        "parcel",
-        "remix",
-        "ts-eslint",
-        "webpack-react"
+        "prisma-app",
+        "remix"
       ]
     },
     {
-      "name": "is-glob",
+      "name": "magic-string",
       "score": 8,
       "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "next-react-ts",
+        "astro-react",
         "nuxt-ts",
-        "parcel",
-        "remix",
-        "ts-eslint",
-        "webpack-react"
+        "prisma-app",
+        "rollup-ts",
+        "sveltekit-ts",
+        "vite-svelte-ts",
+        "vite-vue-ts",
+        "vitest-ts"
       ]
     },
     {
@@ -2598,31 +2709,31 @@
       ]
     },
     {
-      "name": "minimatch",
-      "score": 8,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
-        "node-cli",
-        "nuxt-ts",
-        "remix",
-        "ts-eslint"
-      ]
-    },
-    {
-      "name": "once",
+      "name": "npm-run-path",
       "score": 8,
       "stacks": [
         "cypress",
-        "express-api",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "nest-api",
-        "remix",
-        "webpack-react"
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "onetime",
+      "score": 8,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -2654,17 +2765,17 @@
       ]
     },
     {
-      "name": "rolldown",
+      "name": "safer-buffer",
       "score": 8,
       "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "sveltekit-ts",
-        "vite-react-ts",
-        "vite-solid-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
+        "cypress",
+        "express-api",
+        "gatsby-react",
+        "monorepo-tooling",
+        "nest-api",
+        "node-cli",
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -2696,73 +2807,31 @@
       ]
     },
     {
-      "name": "string-width",
+      "name": "strip-final-newline",
       "score": 8,
       "stacks": [
-        "astro-react",
         "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
         "node-cli",
         "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
     {
-      "name": "undici-types",
+      "name": "util-deprecate",
       "score": 8,
       "stacks": [
-        "drizzle-postgres",
-        "express-api",
-        "fastify-api",
         "gatsby-react",
-        "jest-ts",
-        "next-react-ts",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "wrap-ansi",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "cypress",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "wrappy",
-      "score": 8,
-      "stacks": [
-        "cypress",
-        "express-api",
-        "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
         "nest-api",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "yallist",
-      "score": 8,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
-        "vite-solid-ts"
+        "tailwind-react",
+        "webpack-react"
       ]
     },
     {
@@ -2805,32 +2874,6 @@
       ]
     },
     {
-      "name": "ajv",
-      "score": 7,
-      "stacks": [
-        "astro-react",
-        "fastify-api",
-        "gatsby-react",
-        "next-react-ts",
-        "prisma-app",
-        "ts-eslint",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "buffer-from",
-      "score": 7,
-      "stacks": [
-        "drizzle-postgres",
-        "gatsby-react",
-        "jest-ts",
-        "nest-api",
-        "nuxt-ts",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "call-bound",
       "score": 7,
       "stacks": [
@@ -2844,16 +2887,16 @@
       ]
     },
     {
-      "name": "chalk",
+      "name": "cliui",
       "score": 7,
       "stacks": [
-        "cypress",
+        "astro-react",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
         "node-cli",
-        "parcel",
-        "remix"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -2896,41 +2939,28 @@
       ]
     },
     {
-      "name": "escape-string-regexp",
+      "name": "content-type",
       "score": 7,
       "stacks": [
+        "express-api",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
-        "mui-app",
-        "next-react-ts",
-        "nuxt-ts",
-        "ts-eslint"
+        "nest-api",
+        "prisma-app",
+        "remix",
+        "webpack-react"
       ]
     },
     {
-      "name": "execa",
-      "score": 7,
-      "stacks": [
-        "cypress",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "fast-deep-equal",
+      "name": "es-module-lexer",
       "score": 7,
       "stacks": [
         "astro-react",
-        "fastify-api",
         "gatsby-react",
-        "next-react-ts",
-        "prisma-app",
-        "ts-eslint",
+        "jest-ts",
+        "nuxt-ts",
+        "remix",
+        "vitest-ts",
         "webpack-react"
       ]
     },
@@ -2961,29 +2991,42 @@
       ]
     },
     {
-      "name": "get-stream",
+      "name": "get-caller-file",
       "score": 7,
       "stacks": [
-        "cypress",
+        "astro-react",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
         "node-cli",
         "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "glob",
+      "score": 7,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
     {
-      "name": "human-signals",
+      "name": "iconv-lite",
       "score": 7,
       "stacks": [
-        "cypress",
+        "express-api",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
+        "nest-api",
         "node-cli",
-        "nuxt-ts",
-        "remix"
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -3000,29 +3043,16 @@
       ]
     },
     {
-      "name": "is-stream",
+      "name": "is-fullwidth-code-point",
       "score": 7,
       "stacks": [
         "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "node-cli",
         "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "json-schema-traverse",
-      "score": 7,
-      "stacks": [
-        "astro-react",
-        "fastify-api",
-        "gatsby-react",
-        "next-react-ts",
         "prisma-app",
-        "ts-eslint",
-        "webpack-react"
+        "remix"
       ]
     },
     {
@@ -3039,32 +3069,6 @@
       ]
     },
     {
-      "name": "lodash",
-      "score": 7,
-      "stacks": [
-        "cypress",
-        "gatsby-react",
-        "nest-api",
-        "nuxt-ts",
-        "prisma-app",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "magic-string",
-      "score": 7,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "rollup-ts",
-        "sveltekit-ts",
-        "vite-svelte-ts",
-        "vite-vue-ts",
-        "vitest-ts"
-      ]
-    },
-    {
       "name": "merge-stream",
       "score": 7,
       "stacks": [
@@ -3078,15 +3082,15 @@
       ]
     },
     {
-      "name": "npm-run-path",
+      "name": "mimic-fn",
       "score": 7,
       "stacks": [
         "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "node-cli",
         "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
@@ -3104,16 +3108,16 @@
       ]
     },
     {
-      "name": "onetime",
+      "name": "once",
       "score": 7,
       "stacks": [
         "cypress",
+        "express-api",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "remix"
+        "nest-api",
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -3139,6 +3143,19 @@
         "next-react-ts",
         "remix",
         "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "resolve-from",
+      "score": 7,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "mui-app",
+        "nuxt-ts",
+        "prisma-app",
         "webpack-react"
       ]
     },
@@ -3195,29 +3212,68 @@
       ]
     },
     {
-      "name": "strip-final-newline",
+      "name": "type-fest",
       "score": 7,
       "stacks": [
         "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "node-cli",
         "nuxt-ts",
-        "remix"
+        "parcel",
+        "prisma-app"
       ]
     },
     {
-      "name": "util-deprecate",
+      "name": "wrappy",
       "score": 7,
       "stacks": [
+        "cypress",
+        "express-api",
         "gatsby-react",
         "monorepo-tooling",
         "nest-api",
-        "nuxt-ts",
         "remix",
-        "tailwind-react",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "y18n",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "yargs",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "yargs-parser",
+      "score": 7,
+      "stacks": [
+        "astro-react",
+        "gatsby-react",
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -3246,27 +3302,339 @@
       ]
     },
     {
+      "name": "@esbuild/aix-ppc64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "ajv",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "fastify-api",
+        "gatsby-react",
+        "next-react-ts",
+        "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "braces",
       "score": 6,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "buffer-from",
+      "score": 6,
+      "stacks": [
+        "drizzle-postgres",
+        "gatsby-react",
+        "nest-api",
         "nuxt-ts",
         "remix",
         "webpack-react"
       ]
     },
     {
-      "name": "cliui",
+      "name": "ci-info",
       "score": 6,
       "stacks": [
         "astro-react",
+        "cypress",
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "cli-cursor",
+      "score": 6,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "monorepo-tooling",
         "node-cli",
-        "nuxt-ts"
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -3342,15 +3710,15 @@
       ]
     },
     {
-      "name": "es-module-lexer",
+      "name": "esbuild",
       "score": 6,
       "stacks": [
         "astro-react",
-        "gatsby-react",
+        "drizzle-postgres",
+        "esbuild-bundler",
         "nuxt-ts",
-        "remix",
-        "vitest-ts",
-        "webpack-react"
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -3369,8 +3737,8 @@
       "name": "estree-walker",
       "score": 6,
       "stacks": [
-        "astro-react",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "rollup-ts",
         "vite-vue-ts",
@@ -3390,13 +3758,25 @@
       ]
     },
     {
+      "name": "fast-deep-equal",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "fastify-api",
+        "gatsby-react",
+        "next-react-ts",
+        "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "fill-range",
       "score": 6,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "webpack-react"
       ]
@@ -3414,37 +3794,13 @@
       ]
     },
     {
-      "name": "get-caller-file",
-      "score": 6,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "glob",
-      "score": 6,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "glob-parent",
       "score": 6,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "ts-eslint"
       ]
@@ -3498,15 +3854,15 @@
       ]
     },
     {
-      "name": "is-fullwidth-code-point",
+      "name": "is-docker",
       "score": 6,
       "stacks": [
-        "cypress",
+        "astro-react",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
         "nuxt-ts",
-        "remix"
+        "prisma-app",
+        "webpack-react"
       ]
     },
     {
@@ -3514,23 +3870,35 @@
       "score": 6,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "webpack-react"
       ]
     },
     {
-      "name": "mimic-fn",
+      "name": "json-schema-traverse",
+      "score": 6,
+      "stacks": [
+        "astro-react",
+        "fastify-api",
+        "gatsby-react",
+        "next-react-ts",
+        "ts-eslint",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "lodash",
       "score": 6,
       "stacks": [
         "cypress",
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
         "nuxt-ts",
-        "remix"
+        "prisma-app",
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -3542,6 +3910,18 @@
         "jest-ts",
         "monorepo-tooling",
         "next-react-ts",
+        "remix"
+      ]
+    },
+    {
+      "name": "minipass",
+      "score": 6,
+      "stacks": [
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
@@ -3594,6 +3974,18 @@
       ]
     },
     {
+      "name": "path-scurry",
+      "score": 6,
+      "stacks": [
+        "jest-ts",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "postcss-selector-parser",
       "score": 6,
       "stacks": [
@@ -3642,6 +4034,18 @@
       ]
     },
     {
+      "name": "readable-stream",
+      "score": 6,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nest-api",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "resolve",
       "score": 6,
       "stacks": [
@@ -3654,15 +4058,15 @@
       ]
     },
     {
-      "name": "resolve-from",
+      "name": "restore-cursor",
       "score": 6,
       "stacks": [
+        "cypress",
         "gatsby-react",
-        "jest-ts",
         "monorepo-tooling",
-        "mui-app",
-        "nuxt-ts",
-        "webpack-react"
+        "node-cli",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -3702,18 +4106,6 @@
       ]
     },
     {
-      "name": "source-map-support",
-      "score": 6,
-      "stacks": [
-        "drizzle-postgres",
-        "gatsby-react",
-        "jest-ts",
-        "nuxt-ts",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "statuses",
       "score": 6,
       "stacks": [
@@ -3723,6 +4115,18 @@
         "nuxt-ts",
         "remix",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "score": 6,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nest-api",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -3742,9 +4146,9 @@
       "score": 6,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "remix",
         "webpack-react"
       ]
@@ -3762,27 +4166,15 @@
       ]
     },
     {
-      "name": "type-fest",
+      "name": "ws",
       "score": 6,
       "stacks": [
         "cypress",
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
         "nuxt-ts",
-        "parcel"
-      ]
-    },
-    {
-      "name": "y18n",
-      "score": 6,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts"
+        "prisma-app",
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -3793,296 +4185,107 @@
         "gatsby-react",
         "monorepo-tooling",
         "mui-app",
-        "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
     {
-      "name": "yargs",
-      "score": 6,
+      "name": "@emnapi/core",
+      "score": 5,
       "stacks": [
         "astro-react",
-        "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts"
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "yargs-parser",
-      "score": 6,
+      "name": "@emnapi/runtime",
+      "score": 5,
       "stacks": [
         "astro-react",
-        "gatsby-react",
         "jest-ts",
         "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts"
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "@babel/runtime",
+      "name": "@emnapi/wasi-threads",
       "score": 5,
       "stacks": [
-        "antd-app",
-        "gatsby-react",
+        "astro-react",
+        "jest-ts",
         "monorepo-tooling",
-        "mui-app",
-        "remix"
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/aix-ppc64",
+      "name": "@esbuild/netbsd-arm64",
       "score": 5,
       "stacks": [
         "astro-react",
         "drizzle-postgres",
         "esbuild-bundler",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/android-arm",
+      "name": "@esbuild/openbsd-arm64",
       "score": 5,
       "stacks": [
         "astro-react",
         "drizzle-postgres",
         "esbuild-bundler",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/android-arm64",
+      "name": "@esbuild/openharmony-arm64",
       "score": 5,
       "stacks": [
         "astro-react",
         "drizzle-postgres",
         "esbuild-bundler",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/android-x64",
+      "name": "@napi-rs/wasm-runtime",
       "score": 5,
       "stacks": [
         "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/darwin-arm64",
+      "name": "@standard-schema/spec",
       "score": 5,
       "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
+        "nest-api",
+        "prisma-app",
+        "react-state",
+        "sveltekit-ts",
+        "vitest-ts"
       ]
     },
     {
-      "name": "@esbuild/darwin-x64",
+      "name": "@tybys/wasm-util",
       "score": 5,
       "stacks": [
         "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/freebsd-arm64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/freebsd-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-arm",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-arm64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-ia32",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-loong64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-mips64el",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-ppc64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-riscv64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-s390x",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/linux-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/netbsd-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/openbsd-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/sunos-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/win32-arm64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/win32-ia32",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "@esbuild/win32-x64",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts",
-        "remix"
+        "jest-ts",
+        "monorepo-tooling",
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4185,24 +4388,13 @@
       ]
     },
     {
-      "name": "ci-info",
+      "name": "chownr",
       "score": 5,
       "stacks": [
-        "astro-react",
-        "cypress",
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "cli-cursor",
-      "score": 5,
-      "stacks": [
-        "cypress",
         "gatsby-react",
         "monorepo-tooling",
-        "node-cli",
+        "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
@@ -4219,17 +4411,6 @@
     },
     {
       "name": "content-disposition",
-      "score": 5,
-      "stacks": [
-        "express-api",
-        "gatsby-react",
-        "nest-api",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "content-type",
       "score": 5,
       "stacks": [
         "express-api",
@@ -4262,23 +4443,23 @@
       ]
     },
     {
+      "name": "define-lazy-prop",
+      "score": 5,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "diff",
       "score": 5,
       "stacks": [
         "astro-react",
         "express-api",
         "fastify-api",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "esbuild",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
         "nuxt-ts",
         "remix"
       ]
@@ -4295,14 +4476,36 @@
       ]
     },
     {
-      "name": "fast-uri",
+      "name": "fast-string-truncated-width",
       "score": 5,
       "stacks": [
         "astro-react",
-        "fastify-api",
-        "gatsby-react",
-        "prisma-app",
-        "webpack-react"
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "fast-string-width",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "fast-wrap-ansi",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4311,9 +4514,9 @@
       "stacks": [
         "fastify-api",
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4361,6 +4564,17 @@
       ]
     },
     {
+      "name": "get-east-asian-width",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "cypress",
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "has-tostringtag",
       "score": 5,
       "stacks": [
@@ -4383,13 +4597,24 @@
       ]
     },
     {
-      "name": "is-docker",
+      "name": "is-inside-container",
       "score": 5,
       "stacks": [
-        "astro-react",
         "gatsby-react",
         "monorepo-tooling",
         "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "is-plain-obj",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "node-cli",
+        "prisma-app",
+        "remix",
         "webpack-react"
       ]
     },
@@ -4402,6 +4627,39 @@
         "rollup-ts",
         "sveltekit-ts",
         "vite-svelte-ts"
+      ]
+    },
+    {
+      "name": "is-unicode-supported",
+      "score": 5,
+      "stacks": [
+        "cypress",
+        "monorepo-tooling",
+        "node-cli",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
+      "name": "is-wsl",
+      "score": 5,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "isarray",
+      "score": 5,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -4475,21 +4733,10 @@
       "score": 5,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
         "nuxt-ts",
+        "prisma-app",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "minipass",
-      "score": 5,
-      "stacks": [
-        "jest-ts",
-        "monorepo-tooling",
-        "node-cli",
-        "nuxt-ts",
-        "remix"
       ]
     },
     {
@@ -4526,14 +4773,14 @@
       ]
     },
     {
-      "name": "path-scurry",
+      "name": "open",
       "score": 5,
       "stacks": [
-        "jest-ts",
+        "gatsby-react",
         "monorepo-tooling",
-        "node-cli",
         "nuxt-ts",
-        "remix"
+        "prisma-app",
+        "webpack-react"
       ]
     },
     {
@@ -4570,39 +4817,6 @@
       ]
     },
     {
-      "name": "readable-stream",
-      "score": 5,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nest-api",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
-      "name": "require-from-string",
-      "score": 5,
-      "stacks": [
-        "astro-react",
-        "fastify-api",
-        "gatsby-react",
-        "prisma-app",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "restore-cursor",
-      "score": 5,
-      "stacks": [
-        "cypress",
-        "gatsby-react",
-        "monorepo-tooling",
-        "node-cli",
-        "remix"
-      ]
-    },
-    {
       "name": "retry",
       "score": 5,
       "stacks": [
@@ -4619,20 +4833,31 @@
       "stacks": [
         "fastify-api",
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "string_decoder",
+      "name": "sisteransi",
       "score": 5,
       "stacks": [
+        "astro-react",
         "gatsby-react",
         "monorepo-tooling",
-        "nest-api",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "source-map-support",
+      "score": 5,
+      "stacks": [
+        "drizzle-postgres",
+        "gatsby-react",
+        "nuxt-ts",
+        "remix",
+        "webpack-react"
       ]
     },
     {
@@ -4647,6 +4872,17 @@
       ]
     },
     {
+      "name": "tar-stream",
+      "score": 5,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "type-is",
       "score": 5,
       "stacks": [
@@ -4655,6 +4891,17 @@
         "nest-api",
         "remix",
         "webpack-react"
+      ]
+    },
+    {
+      "name": "undici",
+      "score": 5,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -4761,33 +5008,33 @@
       ]
     },
     {
-      "name": "@esbuild/netbsd-arm64",
+      "name": "@babel/runtime",
       "score": 4,
       "stacks": [
-        "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts"
+        "antd-app",
+        "gatsby-react",
+        "mui-app",
+        "remix"
       ]
     },
     {
-      "name": "@esbuild/openbsd-arm64",
+      "name": "@clack/core",
       "score": 4,
       "stacks": [
         "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts"
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "@esbuild/openharmony-arm64",
+      "name": "@clack/prompts",
       "score": 4,
       "stacks": [
         "astro-react",
-        "drizzle-postgres",
-        "esbuild-bundler",
-        "nuxt-ts"
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4805,9 +5052,9 @@
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4815,9 +5062,9 @@
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4825,19 +5072,9 @@
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@standard-schema/spec",
-      "score": 4,
-      "stacks": [
-        "prisma-app",
-        "react-state",
-        "sveltekit-ts",
-        "vitest-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -4851,16 +5088,6 @@
       ]
     },
     {
-      "name": "@types/react",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "next-react-ts",
-        "prisma-app",
-        "vite-react-ts"
-      ]
-    },
-    {
       "name": "acorn-jsx",
       "score": 4,
       "stacks": [
@@ -4871,12 +5098,42 @@
       ]
     },
     {
+      "name": "agent-base",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "ansi-escapes",
+      "score": 4,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "jest-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "boolbase",
       "score": 4,
       "stacks": [
         "astro-react",
         "gatsby-react",
         "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "bundle-name",
+      "score": 4,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
         "webpack-react"
       ]
     },
@@ -4891,16 +5148,6 @@
       ]
     },
     {
-      "name": "chownr",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "clone",
       "score": 4,
       "stacks": [
@@ -4911,13 +5158,13 @@
       ]
     },
     {
-      "name": "concat-map",
+      "name": "core-util-is",
       "score": 4,
       "stacks": [
-        "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "next-react-ts"
+        "cypress",
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -4931,12 +5178,22 @@
       ]
     },
     {
-      "name": "define-lazy-prop",
+      "name": "default-browser",
       "score": 4,
       "stacks": [
-        "gatsby-react",
         "monorepo-tooling",
         "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "default-browser-id",
+      "score": 4,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
         "webpack-react"
       ]
     },
@@ -5031,36 +5288,6 @@
       ]
     },
     {
-      "name": "eslint-scope",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "next-react-ts",
-        "ts-eslint",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "esrecurse",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "next-react-ts",
-        "ts-eslint",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "estraverse",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "next-react-ts",
-        "ts-eslint",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "esutils",
       "score": 4,
       "stacks": [
@@ -5075,9 +5302,9 @@
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -5091,13 +5318,33 @@
       ]
     },
     {
-      "name": "get-east-asian-width",
+      "name": "fast-uri",
       "score": 4,
       "stacks": [
         "astro-react",
-        "cypress",
+        "fastify-api",
+        "gatsby-react",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "figures",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
         "node-cli",
-        "nuxt-ts"
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -5121,26 +5368,6 @@
       ]
     },
     {
-      "name": "is-inside-container",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "is-plain-obj",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "node-cli",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "is-promise",
       "score": 4,
       "stacks": [
@@ -5151,42 +5378,22 @@
       ]
     },
     {
-      "name": "is-unicode-supported",
-      "score": 4,
-      "stacks": [
-        "cypress",
-        "monorepo-tooling",
-        "node-cli",
-        "remix"
-      ]
-    },
-    {
-      "name": "is-wsl",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "isarray",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "next-react-ts",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "jackspeak",
       "score": 4,
       "stacks": [
         "jest-ts",
         "monorepo-tooling",
         "nuxt-ts",
+        "remix"
+      ]
+    },
+    {
+      "name": "lilconfig",
+      "score": 4,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app",
         "remix"
       ]
     },
@@ -5211,23 +5418,33 @@
       ]
     },
     {
+      "name": "magicast",
+      "score": 4,
+      "stacks": [
+        "astro-react",
+        "nuxt-ts",
+        "prisma-app",
+        "vitest-ts"
+      ]
+    },
+    {
       "name": "merge2",
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "mri",
+      "name": "minizlib",
       "score": 4,
       "stacks": [
         "monorepo-tooling",
-        "remix",
-        "sveltekit-ts",
-        "vite-svelte-ts"
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -5277,16 +5494,6 @@
         "express-api",
         "gatsby-react",
         "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "open",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts",
         "webpack-react"
       ]
     },
@@ -5345,7 +5552,7 @@
       "score": 4,
       "stacks": [
         "astro-react",
-        "monorepo-tooling",
+        "prisma-app",
         "remix",
         "ts-eslint"
       ]
@@ -5355,9 +5562,9 @@
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -5381,6 +5588,16 @@
       ]
     },
     {
+      "name": "require-from-string",
+      "score": 4,
+      "stacks": [
+        "astro-react",
+        "fastify-api",
+        "gatsby-react",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "resolve-cwd",
       "score": 4,
       "stacks": [
@@ -5391,13 +5608,23 @@
       ]
     },
     {
+      "name": "run-applescript",
+      "score": 4,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "run-parallel",
       "score": 4,
       "stacks": [
         "gatsby-react",
-        "monorepo-tooling",
         "next-react-ts",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -5411,23 +5638,43 @@
       ]
     },
     {
-      "name": "slash",
+      "name": "sharp",
       "score": 4,
       "stacks": [
+        "astro-react",
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling",
-        "nuxt-ts"
+        "next-react-ts",
+        "prisma-app"
       ]
     },
     {
-      "name": "tar-stream",
+      "name": "shell-quote",
       "score": 4,
       "stacks": [
         "gatsby-react",
         "monorepo-tooling",
         "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "tar",
+      "score": 4,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app",
         "remix"
+      ]
+    },
+    {
+      "name": "tinyexec",
+      "score": 4,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "nuxt-ts",
+        "vitest-ts"
       ]
     },
     {
@@ -5438,26 +5685,6 @@
         "monorepo-tooling",
         "next-react-ts",
         "remix"
-      ]
-    },
-    {
-      "name": "ws",
-      "score": 4,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts",
-        "remix",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "zod",
-      "score": 4,
-      "stacks": [
-        "astro-react",
-        "next-react-ts",
-        "nuxt-ts",
-        "trpc-app"
       ]
     },
     {
@@ -5506,6 +5733,258 @@
       ]
     },
     {
+      "name": "@img/colour",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-darwin-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-darwin-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-freebsd-wasm32",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-ppc64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-riscv64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-s390x",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linux-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-arm",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-ppc64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-riscv64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-s390x",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linux-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linuxmusl-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-linuxmusl-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-wasm32",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-webcontainers-wasm32",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-win32-arm64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-win32-ia32",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@img/sharp-win32-x64",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@isaacs/fs-minipass",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@jridgewell/source-map",
       "score": 3,
       "stacks": [
@@ -5515,12 +5994,183 @@
       ]
     },
     {
+      "name": "@msgpackr-extract/msgpackr-extract-darwin-arm64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-darwin-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-arm",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-arm64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-linux-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@msgpackr-extract/msgpackr-extract-win32-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@napi-rs/lzma-linux-x64-gnu",
       "score": 3,
       "stacks": [
         "nuxt-ts",
         "remix",
         "rollup-ts"
+      ]
+    },
+    {
+      "name": "@parcel/watcher",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-android-arm64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-darwin-arm64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-darwin-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-freebsd-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-arm-glibc",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-arm-musl",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-arm64-glibc",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-arm64-musl",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-x64-glibc",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-linux-x64-musl",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-win32-arm64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "@parcel/watcher-win32-x64",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
       ]
     },
     {
@@ -5536,8 +6186,8 @@
       "name": "@rollup/pluginutils",
       "score": 3,
       "stacks": [
-        "astro-react",
         "nuxt-ts",
+        "prisma-app",
         "rollup-ts"
       ]
     },
@@ -5767,6 +6417,15 @@
       ]
     },
     {
+      "name": "@sindresorhus/merge-streams",
+      "score": 3,
+      "stacks": [
+        "node-cli",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@swc/helpers",
       "score": 3,
       "stacks": [
@@ -5809,6 +6468,24 @@
         "astro-react",
         "jest-ts",
         "vite-solid-ts"
+      ]
+    },
+    {
+      "name": "@types/react",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts",
+        "vite-react-ts"
+      ]
+    },
+    {
+      "name": "@types/ws",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "prisma-app",
+        "webpack-react"
       ]
     },
     {
@@ -5884,6 +6561,15 @@
       ]
     },
     {
+      "name": "abbrev",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "abort-controller",
       "score": 3,
       "stacks": [
@@ -5902,30 +6588,12 @@
       ]
     },
     {
-      "name": "agent-base",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "ajv-formats",
       "score": 3,
       "stacks": [
         "fastify-api",
         "gatsby-react",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "ansi-escapes",
-      "score": 3,
-      "stacks": [
-        "cypress",
-        "gatsby-react",
-        "jest-ts"
       ]
     },
     {
@@ -5965,6 +6633,60 @@
       ]
     },
     {
+      "name": "b4a",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "bare-events",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "bare-fs",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "bare-path",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "bare-stream",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "bare-url",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "bl",
       "score": 3,
       "stacks": [
@@ -5974,12 +6696,12 @@
       ]
     },
     {
-      "name": "bundle-name",
+      "name": "cac",
       "score": 3,
       "stacks": [
         "monorepo-tooling",
         "nuxt-ts",
-        "webpack-react"
+        "remix"
       ]
     },
     {
@@ -6028,6 +6750,15 @@
       ]
     },
     {
+      "name": "colorette",
+      "score": 3,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "combined-stream",
       "score": 3,
       "stacks": [
@@ -6064,6 +6795,15 @@
       ]
     },
     {
+      "name": "concat-map",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "monorepo-tooling",
+        "next-react-ts"
+      ]
+    },
+    {
       "name": "confbox",
       "score": 3,
       "stacks": [
@@ -6079,15 +6819,6 @@
         "astro-react",
         "nuxt-ts",
         "react-router-app"
-      ]
-    },
-    {
-      "name": "core-util-is",
-      "score": 3,
-      "stacks": [
-        "cypress",
-        "nuxt-ts",
-        "remix"
       ]
     },
     {
@@ -6142,24 +6873,6 @@
         "gatsby-react",
         "next-react-ts",
         "ts-eslint"
-      ]
-    },
-    {
-      "name": "default-browser",
-      "score": 3,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "default-browser-id",
-      "score": 3,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
-        "webpack-react"
       ]
     },
     {
@@ -6235,6 +6948,15 @@
       ]
     },
     {
+      "name": "eslint-scope",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts",
+        "ts-eslint"
+      ]
+    },
+    {
       "name": "eslint-visitor-keys",
       "score": 3,
       "stacks": [
@@ -6253,16 +6975,25 @@
       ]
     },
     {
-      "name": "esprima",
+      "name": "esquery",
       "score": 3,
       "stacks": [
         "gatsby-react",
-        "jest-ts",
-        "monorepo-tooling"
+        "next-react-ts",
+        "ts-eslint"
       ]
     },
     {
-      "name": "esquery",
+      "name": "esrecurse",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "next-react-ts",
+        "ts-eslint"
+      ]
+    },
+    {
+      "name": "estraverse",
       "score": 3,
       "stacks": [
         "gatsby-react",
@@ -6298,6 +7029,15 @@
       ]
     },
     {
+      "name": "events-universal",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "exsolve",
       "score": 3,
       "stacks": [
@@ -6316,48 +7056,21 @@
       ]
     },
     {
+      "name": "fast-fifo",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "fast-levenshtein",
       "score": 3,
       "stacks": [
         "gatsby-react",
         "next-react-ts",
         "ts-eslint"
-      ]
-    },
-    {
-      "name": "fast-string-truncated-width",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "node-cli",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "fast-string-width",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "node-cli",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "fast-wrap-ansi",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "node-cli",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "figures",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "node-cli"
       ]
     },
     {
@@ -6460,15 +7173,6 @@
       ]
     },
     {
-      "name": "globby",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "has-property-descriptors",
       "score": 3,
       "stacks": [
@@ -6505,15 +7209,6 @@
       ]
     },
     {
-      "name": "https-proxy-agent",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "icss-utils",
       "score": 3,
       "stacks": [
@@ -6541,6 +7236,15 @@
       ]
     },
     {
+      "name": "indent-string",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "inquirer",
       "score": 3,
       "stacks": [
@@ -6565,6 +7269,15 @@
         "gatsby-react",
         "next-react-ts",
         "remix"
+      ]
+    },
+    {
+      "name": "is-in-ssh",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
       ]
     },
     {
@@ -6622,6 +7335,15 @@
       ]
     },
     {
+      "name": "jsonc-parser",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "keyv",
       "score": 3,
       "stacks": [
@@ -6631,21 +7353,21 @@
       ]
     },
     {
+      "name": "launch-editor",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "levn",
       "score": 3,
       "stacks": [
         "gatsby-react",
         "next-react-ts",
         "ts-eslint"
-      ]
-    },
-    {
-      "name": "lilconfig",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts",
-        "remix"
       ]
     },
     {
@@ -6673,15 +7395,6 @@
         "gatsby-react",
         "mui-app",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "magicast",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts",
-        "vitest-ts"
       ]
     },
     {
@@ -6721,12 +7434,30 @@
       ]
     },
     {
-      "name": "minizlib",
+      "name": "mri",
       "score": 3,
       "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
-        "remix"
+        "remix",
+        "sveltekit-ts",
+        "vite-svelte-ts"
+      ]
+    },
+    {
+      "name": "msgpackr",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "msgpackr-extract",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
       ]
     },
     {
@@ -6745,6 +7476,42 @@
         "gatsby-react",
         "monorepo-tooling",
         "node-cli"
+      ]
+    },
+    {
+      "name": "node-addon-api",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts",
+        "parcel"
+      ]
+    },
+    {
+      "name": "node-fetch",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "node-gyp-build-optional-packages",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "parcel",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "nopt",
+      "score": 3,
+      "stacks": [
+        "monorepo-tooling",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -6775,6 +7542,15 @@
       ]
     },
     {
+      "name": "package-manager-detector",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "parent-module",
       "score": 3,
       "stacks": [
@@ -6784,12 +7560,12 @@
       ]
     },
     {
-      "name": "path-type",
+      "name": "parse-ms",
       "score": 3,
       "stacks": [
-        "gatsby-react",
-        "monorepo-tooling",
-        "mui-app"
+        "node-cli",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -6856,6 +7632,15 @@
       ]
     },
     {
+      "name": "powershell-utils",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
       "name": "prelude-ls",
       "score": 3,
       "stacks": [
@@ -6865,12 +7650,30 @@
       ]
     },
     {
+      "name": "pretty-ms",
+      "score": 3,
+      "stacks": [
+        "node-cli",
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "process",
       "score": 3,
       "stacks": [
         "cypress",
         "gatsby-react",
         "nuxt-ts"
+      ]
+    },
+    {
+      "name": "process-nextick-args",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -6919,15 +7722,6 @@
       ]
     },
     {
-      "name": "quansync",
-      "score": 3,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
-        "remix"
-      ]
-    },
-    {
       "name": "require-directory",
       "score": 3,
       "stacks": [
@@ -6960,15 +7754,6 @@
       "stacks": [
         "express-api",
         "nest-api",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "run-applescript",
-      "score": 3,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts",
         "webpack-react"
       ]
     },
@@ -7027,39 +7812,21 @@
       ]
     },
     {
-      "name": "sharp",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "shell-quote",
-      "score": 3,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
-      "name": "sisteransi",
-      "score": 3,
-      "stacks": [
-        "astro-react",
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "sprintf-js",
+      "name": "slash",
       "score": 3,
       "stacks": [
         "gatsby-react",
         "jest-ts",
-        "monorepo-tooling"
+        "nuxt-ts"
+      ]
+    },
+    {
+      "name": "slice-ansi",
+      "score": 3,
+      "stacks": [
+        "cypress",
+        "gatsby-react",
+        "prisma-app"
       ]
     },
     {
@@ -7069,6 +7836,15 @@
         "nuxt-ts",
         "prisma-app",
         "vitest-ts"
+      ]
+    },
+    {
+      "name": "streamx",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -7099,12 +7875,12 @@
       ]
     },
     {
-      "name": "tar",
+      "name": "teex",
       "score": 3,
       "stacks": [
-        "monorepo-tooling",
+        "gatsby-react",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
       ]
     },
     {
@@ -7117,12 +7893,12 @@
       ]
     },
     {
-      "name": "tinyexec",
+      "name": "text-decoder",
       "score": 3,
       "stacks": [
-        "astro-react",
+        "gatsby-react",
         "nuxt-ts",
-        "vitest-ts"
+        "prisma-app"
       ]
     },
     {
@@ -7132,6 +7908,15 @@
         "cypress",
         "gatsby-react",
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "tr46",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -7153,12 +7938,12 @@
       ]
     },
     {
-      "name": "undici",
+      "name": "unicorn-magic",
       "score": 3,
       "stacks": [
-        "monorepo-tooling",
+        "node-cli",
         "nuxt-ts",
-        "remix"
+        "prisma-app"
       ]
     },
     {
@@ -7171,21 +7956,30 @@
       ]
     },
     {
-      "name": "valibot",
-      "score": 3,
-      "stacks": [
-        "nuxt-ts",
-        "prisma-app",
-        "remix"
-      ]
-    },
-    {
       "name": "vitefu",
       "score": 3,
       "stacks": [
         "astro-react",
         "vite-solid-ts",
         "vite-svelte-ts"
+      ]
+    },
+    {
+      "name": "webidl-conversions",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "whatwg-url",
+      "score": 3,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -7222,6 +8016,24 @@
         "gatsby-react",
         "jest-ts",
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "wsl-utils",
+      "score": 3,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app",
+        "webpack-react"
+      ]
+    },
+    {
+      "name": "zod",
+      "score": 3,
+      "stacks": [
+        "astro-react",
+        "next-react-ts",
+        "trpc-app"
       ]
     },
     {
@@ -7825,22 +8637,6 @@
       ]
     },
     {
-      "name": "@clack/core",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@clack/prompts",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@cspotcode/source-map-support",
       "score": 2,
       "stacks": [
@@ -7934,206 +8730,6 @@
       "stacks": [
         "next-react-ts",
         "ts-eslint"
-      ]
-    },
-    {
-      "name": "@img/colour",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-darwin-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-darwin-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-darwin-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-darwin-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-arm",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-ppc64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-riscv64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-s390x",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linux-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linuxmusl-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-libvips-linuxmusl-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-arm",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-ppc64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-riscv64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-s390x",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linux-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linuxmusl-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-linuxmusl-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-wasm32",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-win32-arm64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-win32-ia32",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
-      ]
-    },
-    {
-      "name": "@img/sharp-win32-x64",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "next-react-ts"
       ]
     },
     {
@@ -8265,14 +8861,6 @@
       ]
     },
     {
-      "name": "@isaacs/fs-minipass",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@jest/diff-sequences",
       "score": 2,
       "stacks": [
@@ -8345,6 +8933,22 @@
       ]
     },
     {
+      "name": "@manypkg/tools",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@mapbox/node-pre-gyp",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@mischnic/json-sourcemap",
       "score": 2,
       "stacks": [
@@ -8353,51 +8957,11 @@
       ]
     },
     {
-      "name": "@msgpackr-extract/msgpackr-extract-darwin-arm64",
+      "name": "@noble/hashes",
       "score": 2,
       "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@msgpackr-extract/msgpackr-extract-darwin-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@msgpackr-extract/msgpackr-extract-linux-arm",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@msgpackr-extract/msgpackr-extract-linux-arm64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@msgpackr-extract/msgpackr-extract-linux-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@msgpackr-extract/msgpackr-extract-win32-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
+        "prisma-app",
+        "webpack-react"
       ]
     },
     {
@@ -8430,6 +8994,102 @@
       "stacks": [
         "monorepo-tooling",
         "remix"
+      ]
+    },
+    {
+      "name": "@octokit/auth-token",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/core",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/endpoint",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/graphql",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/openapi-types",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/plugin-paginate-rest",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/plugin-request-log",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/plugin-rest-endpoint-methods",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/request",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/request-error",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/rest",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@octokit/types",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
       ]
     },
     {
@@ -8633,110 +9293,6 @@
       ]
     },
     {
-      "name": "@parcel/watcher",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-android-arm64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-darwin-arm64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-darwin-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-freebsd-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-arm-glibc",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-arm-musl",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-arm64-glibc",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-arm64-musl",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-x64-glibc",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-linux-x64-musl",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-win32-arm64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "@parcel/watcher-win32-x64",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
       "name": "@parcel/workers",
       "score": 2,
       "stacks": [
@@ -8785,18 +9341,18 @@
       ]
     },
     {
+      "name": "@sec-ant/readable-stream",
+      "score": 2,
+      "stacks": [
+        "node-cli",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@sindresorhus/is",
       "score": 2,
       "stacks": [
         "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@sindresorhus/merge-streams",
-      "score": 2,
-      "stacks": [
-        "node-cli",
         "nuxt-ts"
       ]
     },
@@ -8945,14 +9501,6 @@
       ]
     },
     {
-      "name": "@types/jsesc",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "@types/json5",
       "score": 2,
       "stacks": [
@@ -9017,27 +9565,11 @@
       ]
     },
     {
-      "name": "@types/trusted-types",
-      "score": 2,
-      "stacks": [
-        "sveltekit-ts",
-        "vite-svelte-ts"
-      ]
-    },
-    {
       "name": "@types/unist",
       "score": 2,
       "stacks": [
         "astro-react",
         "remix"
-      ]
-    },
-    {
-      "name": "@types/ws",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "webpack-react"
       ]
     },
     {
@@ -9238,6 +9770,14 @@
       "stacks": [
         "jest-ts",
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "@vercel/nft",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -9489,11 +10029,11 @@
       ]
     },
     {
-      "name": "abbrev",
+      "name": "acorn-import-attributes",
       "score": 2,
       "stacks": [
-        "monorepo-tooling",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -9558,14 +10098,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "array-union",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
       ]
     },
     {
@@ -9641,11 +10173,27 @@
       ]
     },
     {
+      "name": "async-sema",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "at-least-node",
       "score": 2,
       "stacks": [
         "cypress",
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "auto-bind",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "prisma-app"
       ]
     },
     {
@@ -9662,14 +10210,6 @@
       "stacks": [
         "gatsby-react",
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "b4a",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
       ]
     },
     {
@@ -9705,46 +10245,6 @@
       ]
     },
     {
-      "name": "bare-events",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "bare-fs",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "bare-path",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "bare-stream",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "bare-url",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "base-x",
       "score": 2,
       "stacks": [
@@ -9761,11 +10261,27 @@
       ]
     },
     {
+      "name": "before-after-hook",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "binary-extensions",
       "score": 2,
       "stacks": [
         "gatsby-react",
         "remix"
+      ]
+    },
+    {
+      "name": "bindings",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -9798,14 +10314,6 @@
       "stacks": [
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "cac",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "remix"
       ]
     },
     {
@@ -9873,19 +10381,27 @@
       ]
     },
     {
+      "name": "cli-boxes",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "cli-truncate",
+      "score": 2,
+      "stacks": [
+        "cypress",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "clone-deep",
       "score": 2,
       "stacks": [
         "gatsby-react",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "colorette",
-      "score": 2,
-      "stacks": [
-        "cypress",
-        "gatsby-react"
       ]
     },
     {
@@ -9918,6 +10434,14 @@
       "stacks": [
         "gatsby-react",
         "nest-api"
+      ]
+    },
+    {
+      "name": "consola",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -10033,27 +10557,11 @@
       ]
     },
     {
-      "name": "denque",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "prisma-app"
-      ]
-    },
-    {
       "name": "destroy",
       "score": 2,
       "stacks": [
         "gatsby-react",
         "remix"
-      ]
-    },
-    {
-      "name": "dir-glob",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
       ]
     },
     {
@@ -10113,10 +10621,10 @@
       ]
     },
     {
-      "name": "env-paths",
+      "name": "environment",
       "score": 2,
       "stacks": [
-        "monorepo-tooling",
+        "cypress",
         "prisma-app"
       ]
     },
@@ -10166,6 +10674,14 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "es-toolkit",
+      "score": 2,
+      "stacks": [
+        "nest-api",
+        "prisma-app"
       ]
     },
     {
@@ -10225,43 +10741,19 @@
       ]
     },
     {
+      "name": "esprima",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts"
+      ]
+    },
+    {
       "name": "esrap",
       "score": 2,
       "stacks": [
         "sveltekit-ts",
         "vite-svelte-ts"
-      ]
-    },
-    {
-      "name": "events-universal",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "fast-decode-uri-component",
-      "score": 2,
-      "stacks": [
-        "fastify-api",
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "fast-fifo",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "fast-querystring",
-      "score": 2,
-      "stacks": [
-        "fastify-api",
-        "prisma-app"
       ]
     },
     {
@@ -10281,10 +10773,10 @@
       ]
     },
     {
-      "name": "find-my-way",
+      "name": "file-uri-to-path",
       "score": 2,
       "stacks": [
-        "fastify-api",
+        "nuxt-ts",
         "prisma-app"
       ]
     },
@@ -10302,14 +10794,6 @@
       "stacks": [
         "monorepo-tooling",
         "remix"
-      ]
-    },
-    {
-      "name": "fs.realpath",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts"
       ]
     },
     {
@@ -10374,6 +10858,14 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "globby",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "nuxt-ts"
       ]
     },
     {
@@ -10481,22 +10973,6 @@
       ]
     },
     {
-      "name": "indent-string",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "remix"
-      ]
-    },
-    {
-      "name": "inflight",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "jest-ts"
-      ]
-    },
-    {
       "name": "inline-style-parser",
       "score": 2,
       "stacks": [
@@ -10590,14 +11066,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "is-in-ssh",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
       ]
     },
     {
@@ -10721,14 +11189,6 @@
       ]
     },
     {
-      "name": "is-windows",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "isobject",
       "score": 2,
       "stacks": [
@@ -10785,11 +11245,11 @@
       ]
     },
     {
-      "name": "jsonc-parser",
+      "name": "jju",
       "score": 2,
       "stacks": [
-        "astro-react",
-        "monorepo-tooling"
+        "monorepo-tooling",
+        "prisma-app"
       ]
     },
     {
@@ -10830,14 +11290,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "launch-editor",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
       ]
     },
     {
@@ -11001,22 +11453,6 @@
       ]
     },
     {
-      "name": "msgpackr",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
-      "name": "msgpackr-extract",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
       "name": "multer",
       "score": 2,
       "stacks": [
@@ -11041,27 +11477,11 @@
       ]
     },
     {
-      "name": "node-addon-api",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "parcel"
-      ]
-    },
-    {
       "name": "node-exports-info",
       "score": 2,
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "node-fetch",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
       ]
     },
     {
@@ -11073,11 +11493,11 @@
       ]
     },
     {
-      "name": "node-gyp-build-optional-packages",
+      "name": "node-gyp-build",
       "score": 2,
       "stacks": [
-        "gatsby-react",
-        "parcel"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -11093,14 +11513,6 @@
       "score": 2,
       "stacks": [
         "astro-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "nopt",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
         "nuxt-ts"
       ]
     },
@@ -11209,14 +11621,6 @@
       ]
     },
     {
-      "name": "outdent",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "remix"
-      ]
-    },
-    {
       "name": "own-keys",
       "score": 2,
       "stacks": [
@@ -11249,11 +11653,11 @@
       ]
     },
     {
-      "name": "package-manager-detector",
+      "name": "pako",
       "score": 2,
       "stacks": [
-        "astro-react",
-        "monorepo-tooling"
+        "prisma-app",
+        "remix"
       ]
     },
     {
@@ -11262,22 +11666,6 @@
       "stacks": [
         "gatsby-react",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "parse-ms",
-      "score": 2,
-      "stacks": [
-        "node-cli",
-        "remix"
-      ]
-    },
-    {
-      "name": "parse5",
-      "score": 2,
-      "stacks": [
-        "astro-react",
-        "vite-solid-ts"
       ]
     },
     {
@@ -11297,11 +11685,19 @@
       ]
     },
     {
-      "name": "path-is-absolute",
+      "name": "path-type",
       "score": 2,
       "stacks": [
         "gatsby-react",
-        "jest-ts"
+        "mui-app"
+      ]
+    },
+    {
+      "name": "pend",
+      "score": 2,
+      "stacks": [
+        "cypress",
+        "prisma-app"
       ]
     },
     {
@@ -11310,14 +11706,6 @@
       "stacks": [
         "nuxt-ts",
         "prisma-app"
-      ]
-    },
-    {
-      "name": "pify",
-      "score": 2,
-      "stacks": [
-        "cypress",
-        "monorepo-tooling"
       ]
     },
     {
@@ -11529,22 +11917,6 @@
       ]
     },
     {
-      "name": "postgres",
-      "score": 2,
-      "stacks": [
-        "drizzle-postgres",
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "powershell-utils",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
-      ]
-    },
-    {
       "name": "pretty-bytes",
       "score": 2,
       "stacks": [
@@ -11561,26 +11933,10 @@
       ]
     },
     {
-      "name": "pretty-ms",
-      "score": 2,
-      "stacks": [
-        "node-cli",
-        "remix"
-      ]
-    },
-    {
       "name": "proc-log",
       "score": 2,
       "stacks": [
         "monorepo-tooling",
-        "remix"
-      ]
-    },
-    {
-      "name": "process-nextick-args",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
         "remix"
       ]
     },
@@ -11606,6 +11962,14 @@
       "stacks": [
         "jest-ts",
         "prisma-app"
+      ]
+    },
+    {
+      "name": "quansync",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "remix"
       ]
     },
     {
@@ -11753,14 +12117,6 @@
       ]
     },
     {
-      "name": "ret",
-      "score": 2,
-      "stacks": [
-        "fastify-api",
-        "prisma-app"
-      ]
-    },
-    {
       "name": "rfdc",
       "score": 2,
       "stacks": [
@@ -11782,14 +12138,6 @@
       "stacks": [
         "gatsby-react",
         "next-react-ts"
-      ]
-    },
-    {
-      "name": "safe-regex2",
-      "score": 2,
-      "stacks": [
-        "fastify-api",
-        "prisma-app"
       ]
     },
     {
@@ -11833,6 +12181,14 @@
       ]
     },
     {
+      "name": "setimmediate",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "shallow-clone",
       "score": 2,
       "stacks": [
@@ -11846,14 +12202,6 @@
       "stacks": [
         "nuxt-ts",
         "sveltekit-ts"
-      ]
-    },
-    {
-      "name": "slice-ansi",
-      "score": 2,
-      "stacks": [
-        "cypress",
-        "gatsby-react"
       ]
     },
     {
@@ -11913,11 +12261,27 @@
       ]
     },
     {
+      "name": "sprintf-js",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "jest-ts"
+      ]
+    },
+    {
       "name": "ssri",
       "score": 2,
       "stacks": [
         "monorepo-tooling",
         "remix"
+      ]
+    },
+    {
+      "name": "stack-utils",
+      "score": 2,
+      "stacks": [
+        "jest-ts",
+        "prisma-app"
       ]
     },
     {
@@ -11934,14 +12298,6 @@
       "stacks": [
         "gatsby-react",
         "nest-api"
-      ]
-    },
-    {
-      "name": "streamx",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
       ]
     },
     {
@@ -12073,6 +12429,14 @@
       ]
     },
     {
+      "name": "tagged-tag",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "tapable",
       "score": 2,
       "stacks": [
@@ -12089,27 +12453,11 @@
       ]
     },
     {
-      "name": "teex",
+      "name": "tiny-invariant",
       "score": 2,
       "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "term-size",
-      "score": 2,
-      "stacks": [
-        "monorepo-tooling",
-        "parcel"
-      ]
-    },
-    {
-      "name": "text-decoder",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
+        "nuxt-ts",
+        "prisma-app"
       ]
     },
     {
@@ -12134,14 +12482,6 @@
       "stacks": [
         "nuxt-ts",
         "sveltekit-ts"
-      ]
-    },
-    {
-      "name": "tr46",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
       ]
     },
     {
@@ -12257,6 +12597,14 @@
       ]
     },
     {
+      "name": "unenv",
+      "score": 2,
+      "stacks": [
+        "nuxt-ts",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "unicode-canonical-property-names-ecmascript",
       "score": 2,
       "stacks": [
@@ -12286,14 +12634,6 @@
       "stacks": [
         "gatsby-react",
         "webpack-react"
-      ]
-    },
-    {
-      "name": "unicorn-magic",
-      "score": 2,
-      "stacks": [
-        "node-cli",
-        "nuxt-ts"
       ]
     },
     {
@@ -12345,6 +12685,14 @@
       ]
     },
     {
+      "name": "universal-user-agent",
+      "score": 2,
+      "stacks": [
+        "monorepo-tooling",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "unrs-resolver",
       "score": 2,
       "stacks": [
@@ -12393,6 +12741,14 @@
       ]
     },
     {
+      "name": "valibot",
+      "score": 2,
+      "stacks": [
+        "prisma-app",
+        "remix"
+      ]
+    },
+    {
       "name": "validate-npm-package-license",
       "score": 2,
       "stacks": [
@@ -12430,6 +12786,46 @@
       "stacks": [
         "nuxt-ts",
         "remix"
+      ]
+    },
+    {
+      "name": "vscode-jsonrpc",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "vscode-languageserver",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "vscode-languageserver-protocol",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "vscode-languageserver-textdocument",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "vscode-languageserver-types",
+      "score": 2,
+      "stacks": [
+        "astro-react",
+        "prisma-app"
       ]
     },
     {
@@ -12473,14 +12869,6 @@
       ]
     },
     {
-      "name": "webidl-conversions",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "webpack",
       "score": 2,
       "stacks": [
@@ -12521,14 +12909,6 @@
       ]
     },
     {
-      "name": "whatwg-url",
-      "score": 2,
-      "stacks": [
-        "gatsby-react",
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "which-boxed-primitive",
       "score": 2,
       "stacks": [
@@ -12553,6 +12933,14 @@
       ]
     },
     {
+      "name": "widest-line",
+      "score": 2,
+      "stacks": [
+        "gatsby-react",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "wildcard",
       "score": 2,
       "stacks": [
@@ -12566,14 +12954,6 @@
       "stacks": [
         "jest-ts",
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "wsl-utils",
-      "score": 2,
-      "stacks": [
-        "nuxt-ts",
-        "webpack-react"
       ]
     },
     {
@@ -12593,11 +12973,27 @@
       ]
     },
     {
+      "name": "yauzl",
+      "score": 2,
+      "stacks": [
+        "cypress",
+        "prisma-app"
+      ]
+    },
+    {
       "name": "yn",
       "score": 2,
       "stacks": [
         "express-api",
         "fastify-api"
+      ]
+    },
+    {
+      "name": "yoctocolors",
+      "score": 2,
+      "stacks": [
+        "node-cli",
+        "prisma-app"
       ]
     },
     {
@@ -12614,6 +13010,34 @@
       "stacks": [
         "astro-react",
         "remix"
+      ]
+    },
+    {
+      "name": "@alcalzone/ansi-tokenize",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@alchemy.run/cloudflare-runtime",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@alchemy.run/floci",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@alchemy.run/node-utils",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -12670,6 +13094,20 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "@ark/schema",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@ark/util",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -12810,6 +13248,139 @@
       "score": 1,
       "stacks": [
         "astro-react"
+      ]
+    },
+    {
+      "name": "@aws-crypto/crc32",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-crypto/util",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/core",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-cognito-identity",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-env",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-http",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-ini",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-login",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-node",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-process",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-sso",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-web-identity",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-providers",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/nested-clients",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/signature-v4-multi-region",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/token-providers",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/types",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws-sdk/xml-builder",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@aws/lambda-invoke-store",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -13191,6 +13762,13 @@
       ]
     },
     {
+      "name": "@changesets/format",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
       "name": "@changesets/get-dependents-graph",
       "score": 1,
       "stacks": [
@@ -13198,28 +13776,7 @@
       ]
     },
     {
-      "name": "@changesets/get-release-plan",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@changesets/get-version-range-type",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "@changesets/git",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@changesets/logger",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -13268,10 +13825,87 @@
       ]
     },
     {
+      "name": "@chevrotain/cst-dts-gen",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@chevrotain/gast",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@chevrotain/types",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@chevrotain/utils",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@cloudflare/kv-asset-handler",
       "score": 1,
       "stacks": [
         "nuxt-ts"
+      ]
+    },
+    {
+      "name": "@cloudflare/unenv-preset",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-arm64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workerd-linux-64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workerd-linux-arm64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workerd-windows-64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@cloudflare/workers-types",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -13310,24 +13944,66 @@
       ]
     },
     {
-      "name": "@devframes/hub",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@devframes/json-render",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@discoveryjs/json-ext",
       "score": 1,
       "stacks": [
         "webpack-react"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/aws",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/axiom",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/cloudflare",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/core",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/fly-io",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/hetzner",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/neon",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@distilled.cloud/planetscale",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -13349,6 +14025,27 @@
       "score": 1,
       "stacks": [
         "nuxt-ts"
+      ]
+    },
+    {
+      "name": "@effect/sql-d1",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@effect/sql-sqlite-do",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@effect/vitest",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -13744,6 +14441,13 @@
       ]
     },
     {
+      "name": "@hono/node-server",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@humanwhocodes/config-array",
       "score": 1,
       "stacks": [
@@ -13755,20 +14459,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "@img/sharp-freebsd-wasm32",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "@img/sharp-webcontainers-wasm32",
-      "score": 1,
-      "stacks": [
-        "astro-react"
       ]
     },
     {
@@ -13863,6 +14553,20 @@
       ]
     },
     {
+      "name": "@jest/react-is-18",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
+      "name": "@jest/react-is-19",
+      "score": 1,
+      "stacks": [
+        "jest-ts"
+      ]
+    },
+    {
       "name": "@jest/reporters",
       "score": 1,
       "stacks": [
@@ -13916,13 +14620,6 @@
       "score": 1,
       "stacks": [
         "jest-ts"
-      ]
-    },
-    {
-      "name": "@json-render/core",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -14052,6 +14749,97 @@
       ]
     },
     {
+      "name": "@libsql/client",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/core",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/darwin-arm64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/darwin-x64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/hrana-client",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/isomorphic-ws",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-arm-gnueabihf",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-arm-musleabihf",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-arm64-gnu",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-arm64-musl",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-x64-gnu",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/linux-x64-musl",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@libsql/win32-x64-msvc",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@lukeed/csprng",
       "score": 1,
       "stacks": [
@@ -14073,17 +14861,17 @@
       ]
     },
     {
-      "name": "@mapbox/node-pre-gyp",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@mdx-js/mdx",
       "score": 1,
       "stacks": [
         "remix"
+      ]
+    },
+    {
+      "name": "@mrleebo/prisma-ast",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -14140,6 +14928,13 @@
       "score": 1,
       "stacks": [
         "mui-app"
+      ]
+    },
+    {
+      "name": "@neon-rs/load",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -14248,10 +15043,10 @@
       ]
     },
     {
-      "name": "@noble/hashes",
+      "name": "@nodable/entities",
       "score": 1,
       "stacks": [
-        "webpack-react"
+        "prisma-app"
       ]
     },
     {
@@ -14479,38 +15274,10 @@
       ]
     },
     {
-      "name": "@octokit/auth-token",
+      "name": "@octokit/openapi-webhooks-types",
       "score": 1,
       "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/core",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/endpoint",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/graphql",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/openapi-types",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
+        "prisma-app"
       ]
     },
     {
@@ -14521,52 +15288,17 @@
       ]
     },
     {
-      "name": "@octokit/plugin-paginate-rest",
+      "name": "@octokit/webhooks",
       "score": 1,
       "stacks": [
-        "monorepo-tooling"
+        "prisma-app"
       ]
     },
     {
-      "name": "@octokit/plugin-request-log",
+      "name": "@octokit/webhooks-methods",
       "score": 1,
       "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/plugin-rest-endpoint-methods",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/request",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/request-error",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/rest",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "@octokit/types",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
+        "prisma-app"
       ]
     },
     {
@@ -14574,146 +15306,6 @@
       "score": 1,
       "stacks": [
         "astro-react"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-android-arm-eabi",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-android-arm64",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-darwin-arm64",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-darwin-x64",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-freebsd-x64",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm-gnueabihf",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm-musleabihf",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-ppc64-gnu",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-riscv64-gnu",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-riscv64-musl",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-s390x-gnu",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-linux-x64-musl",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-openharmony-arm64",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-wasm32-wasi",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-win32-ia32-msvc",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -15123,6 +15715,13 @@
       ]
     },
     {
+      "name": "@pnpm/deps.graph-sequencer",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
       "name": "@pnpm/network.ca-file",
       "score": 1,
       "stacks": [
@@ -15165,6 +15764,13 @@
       ]
     },
     {
+      "name": "@prisma/cli-engine",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@prisma/client",
       "score": 1,
       "stacks": [
@@ -15179,7 +15785,21 @@
       ]
     },
     {
-      "name": "@prisma/config",
+      "name": "@prisma/composer",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@prisma/composer-cli",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@prisma/compute-sdk",
       "score": 1,
       "stacks": [
         "prisma-app"
@@ -15200,28 +15820,28 @@
       ]
     },
     {
-      "name": "@prisma/engines",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@prisma/engines-version",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@prisma/fetch-engine",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "@prisma/get-platform",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@prisma/management-api-sdk",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@prisma/orm-framework",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@prisma/orm-toolchain",
       "score": 1,
       "stacks": [
         "prisma-app"
@@ -15235,70 +15855,7 @@
       ]
     },
     {
-      "name": "@prisma/streams-local",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@prisma/studio-core",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/primitive",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-compose-refs",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-primitive",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-slot",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-toggle",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-use-controllable-state",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-use-effect-event",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@radix-ui/react-use-layout-effect",
+      "name": "@puppeteer/browsers",
       "score": 1,
       "stacks": [
         "prisma-app"
@@ -15390,6 +15947,13 @@
     },
     {
       "name": "@rc-component/input-number",
+      "score": 1,
+      "stacks": [
+        "antd-app"
+      ]
+    },
+    {
+      "name": "@rc-component/listy",
       "score": 1,
       "stacks": [
         "antd-app"
@@ -15690,6 +16254,13 @@
       ]
     },
     {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@rollup/plugin-alias",
       "score": 1,
       "stacks": [
@@ -15729,13 +16300,6 @@
       "score": 1,
       "stacks": [
         "rollup-ts"
-      ]
-    },
-    {
-      "name": "@sec-ant/readable-stream",
-      "score": 1,
-      "stacks": [
-        "node-cli"
       ]
     },
     {
@@ -15942,6 +16506,90 @@
       ]
     },
     {
+      "name": "@smithy/core",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/credential-provider-imds",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/fetch-http-handler",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/is-array-buffer",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/node-config-provider",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/node-http-handler",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/shared-ini-file-loader",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/signature-v4",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/types",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/util-base64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/util-buffer-from",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "@smithy/util-utf8",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@socket.io/component-emitter",
       "score": 1,
       "stacks": [
@@ -15960,6 +16608,13 @@
       "score": 1,
       "stacks": [
         "react-state"
+      ]
+    },
+    {
+      "name": "@stricli/core",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -16208,6 +16863,13 @@
       ]
     },
     {
+      "name": "@types/aws-lambda",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "@types/bonjour",
       "score": 1,
       "stacks": [
@@ -16250,83 +16912,6 @@
       ]
     },
     {
-      "name": "@types/d3-array",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-color",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-delaunay",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-format",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-geo",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-interpolate",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-path",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-scale",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-shape",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-time",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@types/d3-time-format",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "@types/debug",
       "score": 1,
       "stacks": [
@@ -16352,13 +16937,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "@types/geojson",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -16411,17 +16989,17 @@
       ]
     },
     {
+      "name": "@types/jsesc",
+      "score": 1,
+      "stacks": [
+        "webpack-react"
+      ]
+    },
+    {
       "name": "@types/keyv",
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "@types/lodash",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -16572,13 +17150,6 @@
       ]
     },
     {
-      "name": "@valibot/to-json-schema",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "@vanilla-extract/babel-plugin-debug-ids",
       "score": 1,
       "stacks": [
@@ -16607,10 +17178,10 @@
       ]
     },
     {
-      "name": "@vercel/nft",
+      "name": "@vercel/detect-agent",
       "score": 1,
       "stacks": [
-        "nuxt-ts"
+        "prisma-app"
       ]
     },
     {
@@ -16618,76 +17189,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "@visx/curve",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/event",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/grid",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/group",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/point",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/responsive",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/scale",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/shape",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@visx/vendor",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "@vitejs/devtools-kit",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -16894,13 +17395,6 @@
       ]
     },
     {
-      "name": "acorn-import-attributes",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "acorn-loose",
       "score": 1,
       "stacks": [
@@ -16926,6 +17420,13 @@
       "score": 1,
       "stacks": [
         "astro-react"
+      ]
+    },
+    {
+      "name": "alchemy",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -16978,6 +17479,13 @@
       ]
     },
     {
+      "name": "anynum",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "arch",
       "score": 1,
       "stacks": [
@@ -17003,6 +17511,27 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "arkregex",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "arktype",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "array-union",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -17090,24 +17619,10 @@
       ]
     },
     {
-      "name": "async-sema",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "atomic-sleep",
       "score": 1,
       "stacks": [
         "fastify-api"
-      ]
-    },
-    {
-      "name": "auto-bind",
-      "score": 1,
-      "stacks": [
-        "gatsby-react"
       ]
     },
     {
@@ -17125,17 +17640,17 @@
       ]
     },
     {
-      "name": "aws-ssl-profiles",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "aws4",
       "score": 1,
       "stacks": [
         "cypress"
+      ]
+    },
+    {
+      "name": "aws4fetch",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17279,24 +17794,10 @@
       ]
     },
     {
-      "name": "before-after-hook",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "better-opn",
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "better-path-resolve",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -17321,13 +17822,6 @@
       ]
     },
     {
-      "name": "bindings",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "birpc",
       "score": 1,
       "stacks": [
@@ -17346,6 +17840,13 @@
       "score": 1,
       "stacks": [
         "webpack-react"
+      ]
+    },
+    {
+      "name": "bowser",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17419,6 +17920,20 @@
       ]
     },
     {
+      "name": "capnp-es",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "capnweb",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "caseless",
       "score": 1,
       "stacks": [
@@ -17468,6 +17983,20 @@
       ]
     },
     {
+      "name": "chevrotain",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "chrome-remote-interface",
+      "score": 1,
+      "stacks": [
+        "cypress"
+      ]
+    },
+    {
       "name": "citty",
       "score": 1,
       "stacks": [
@@ -17482,24 +18011,10 @@
       ]
     },
     {
-      "name": "classnames",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "clean-css",
       "score": 1,
       "stacks": [
         "webpack-react"
-      ]
-    },
-    {
-      "name": "cli-boxes",
-      "score": 1,
-      "stacks": [
-        "gatsby-react"
       ]
     },
     {
@@ -17510,17 +18025,17 @@
       ]
     },
     {
-      "name": "cli-truncate",
-      "score": 1,
-      "stacks": [
-        "cypress"
-      ]
-    },
-    {
       "name": "client-only",
       "score": 1,
       "stacks": [
         "next-react-ts"
+      ]
+    },
+    {
+      "name": "clipanion",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17535,6 +18050,13 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "closest-match",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17556,6 +18078,13 @@
       "score": 1,
       "stacks": [
         "jest-ts"
+      ]
+    },
+    {
+      "name": "code-excerpt",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17650,13 +18179,6 @@
       ]
     },
     {
-      "name": "consola",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "constant-case",
       "score": 1,
       "stacks": [
@@ -17717,6 +18239,13 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "convert-to-spaces",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -17811,83 +18340,6 @@
       ]
     },
     {
-      "name": "d3-array",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-color",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-delaunay",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-format",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-geo",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-interpolate",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-path",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-scale",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-shape",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-time",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "d3-time-format",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "dashdash",
       "score": 1,
       "stacks": [
@@ -17958,13 +18410,6 @@
       ]
     },
     {
-      "name": "deepmerge-ts",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "defer-to-connect",
       "score": 1,
       "stacks": [
@@ -17972,10 +18417,10 @@
       ]
     },
     {
-      "name": "delaunator",
+      "name": "denque",
       "score": 1,
       "stacks": [
-        "prisma-app"
+        "nuxt-ts"
       ]
     },
     {
@@ -17987,13 +18432,6 @@
     },
     {
       "name": "deprecation",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "detect-indent",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -18021,17 +18459,17 @@
       ]
     },
     {
-      "name": "devframe",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "devlop",
       "score": 1,
       "stacks": [
         "astro-react"
+      ]
+    },
+    {
+      "name": "dir-glob",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -18098,13 +18536,6 @@
       ]
     },
     {
-      "name": "elkjs",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "emittery",
       "score": 1,
       "stacks": [
@@ -18123,13 +18554,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "empathic",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -18161,10 +18585,10 @@
       ]
     },
     {
-      "name": "environment",
+      "name": "env-paths",
       "score": 1,
       "stacks": [
-        "cypress"
+        "monorepo-tooling"
       ]
     },
     {
@@ -18427,13 +18851,6 @@
       ]
     },
     {
-      "name": "extendable-error",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "external-editor",
       "score": 1,
       "stacks": [
@@ -18452,6 +18869,13 @@
       "score": 1,
       "stacks": [
         "prisma-app"
+      ]
+    },
+    {
+      "name": "fast-decode-uri-component",
+      "score": 1,
+      "stacks": [
+        "fastify-api"
       ]
     },
     {
@@ -18476,10 +18900,31 @@
       ]
     },
     {
+      "name": "fast-querystring",
+      "score": 1,
+      "stacks": [
+        "fastify-api"
+      ]
+    },
+    {
       "name": "fast-safe-stringify",
       "score": 1,
       "stacks": [
         "nest-api"
+      ]
+    },
+    {
+      "name": "fast-xml-builder",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "fast-xml-parser",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -18539,13 +18984,6 @@
       ]
     },
     {
-      "name": "file-uri-to-path",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "filesize",
       "score": 1,
       "stacks": [
@@ -18564,6 +19002,20 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "find-my-way",
+      "score": 1,
+      "stacks": [
+        "fastify-api"
+      ]
+    },
+    {
+      "name": "find-proc",
+      "score": 1,
+      "stacks": [
+        "astro-react"
       ]
     },
     {
@@ -18638,6 +19090,13 @@
     },
     {
       "name": "fs-monkey",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
+      "name": "fs.realpath",
       "score": 1,
       "stacks": [
         "gatsby-react"
@@ -18767,13 +19226,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "generate-function",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -18938,27 +19390,6 @@
       ]
     },
     {
-      "name": "hast-util-from-html",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hast-util-from-parse5",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hast-util-parse-selector",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "hast-util-to-estree",
       "score": 1,
       "stacks": [
@@ -18967,13 +19398,6 @@
     },
     {
       "name": "hast-util-to-html",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "hastscript",
       "score": 1,
       "stacks": [
         "astro-react"
@@ -19005,6 +19429,13 @@
       "score": 1,
       "stacks": [
         "mui-app"
+      ]
+    },
+    {
+      "name": "hono",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -19064,6 +19495,13 @@
       ]
     },
     {
+      "name": "http-status-codes",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "http2-wrapper",
       "score": 1,
       "stacks": [
@@ -19099,6 +19537,13 @@
       ]
     },
     {
+      "name": "immediate",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "immutable",
       "score": 1,
       "stacks": [
@@ -19113,10 +19558,24 @@
       ]
     },
     {
+      "name": "import-meta-resolve",
+      "score": 1,
+      "stacks": [
+        "monorepo-tooling"
+      ]
+    },
+    {
       "name": "impound",
       "score": 1,
       "stacks": [
         "nuxt-ts"
+      ]
+    },
+    {
+      "name": "inflight",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -19127,7 +19586,7 @@
       ]
     },
     {
-      "name": "internmap",
+      "name": "ink",
       "score": 1,
       "stacks": [
         "prisma-app"
@@ -19253,6 +19712,13 @@
       ]
     },
     {
+      "name": "is-in-ci",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "is-invalid-path",
       "score": 1,
       "stacks": [
@@ -19288,13 +19754,6 @@
       ]
     },
     {
-      "name": "is-property",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "is-relative",
       "score": 1,
       "stacks": [
@@ -19323,17 +19782,17 @@
       ]
     },
     {
-      "name": "is-subdir",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "is-unc-path",
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "is-unsafe",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -19355,6 +19814,13 @@
       "score": 1,
       "stacks": [
         "vite-solid-ts"
+      ]
+    },
+    {
+      "name": "is-windows",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
       ]
     },
     {
@@ -19491,13 +19957,6 @@
       ]
     },
     {
-      "name": "jest-pnp-resolver",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
-      ]
-    },
-    {
       "name": "jest-regex-util",
       "score": 1,
       "stacks": [
@@ -19575,6 +20034,13 @@
       ]
     },
     {
+      "name": "js-base64",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "jsbn",
       "score": 1,
       "stacks": [
@@ -19617,6 +20083,13 @@
       ]
     },
     {
+      "name": "json-with-bigint",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "json2mq",
       "score": 1,
       "stacks": [
@@ -19635,6 +20108,13 @@
       "score": 1,
       "stacks": [
         "cypress"
+      ]
+    },
+    {
+      "name": "jszip",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -19698,6 +20178,34 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "libsodium",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "libsodium-wrappers",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "libsql",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "lie",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -19827,13 +20335,6 @@
       ]
     },
     {
-      "name": "lodash.startcase",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "lodash.truncate",
       "score": 1,
       "stacks": [
@@ -19852,13 +20353,6 @@
       "score": 1,
       "stacks": [
         "cypress"
-      ]
-    },
-    {
-      "name": "long",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -19890,13 +20384,6 @@
       ]
     },
     {
-      "name": "lru.min",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "magic-string-ast",
       "score": 1,
       "stacks": [
@@ -19908,13 +20395,6 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "makeerror",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
       ]
     },
     {
@@ -20268,6 +20748,13 @@
       ]
     },
     {
+      "name": "modern-tar",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "moment",
       "score": 1,
       "stacks": [
@@ -20279,20 +20766,6 @@
       "score": 1,
       "stacks": [
         "webpack-react"
-      ]
-    },
-    {
-      "name": "mysql2",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
-      "name": "named-placeholders",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -20377,13 +20850,6 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "node-gyp-build",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
@@ -20506,6 +20972,20 @@
       ]
     },
     {
+      "name": "openapi-fetch",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "openapi-typescript-helpers",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "opentracing",
       "score": 1,
       "stacks": [
@@ -20527,10 +21007,10 @@
       ]
     },
     {
-      "name": "oxc-parser",
+      "name": "outdent",
       "score": 1,
       "stacks": [
-        "nuxt-ts"
+        "remix"
       ]
     },
     {
@@ -20552,13 +21032,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "p-filter",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -20587,13 +21060,6 @@
       "score": 1,
       "stacks": [
         "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "pako",
-      "score": 1,
-      "stacks": [
-        "remix"
       ]
     },
     {
@@ -20639,7 +21105,35 @@
       ]
     },
     {
+      "name": "parse5",
+      "score": 1,
+      "stacks": [
+        "vite-solid-ts"
+      ]
+    },
+    {
+      "name": "patch-console",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "path-case",
+      "score": 1,
+      "stacks": [
+        "gatsby-react"
+      ]
+    },
+    {
+      "name": "path-expression-matcher",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
+      "name": "path-is-absolute",
       "score": 1,
       "stacks": [
         "gatsby-react"
@@ -20671,13 +21165,6 @@
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "pend",
-      "score": 1,
-      "stacks": [
-        "cypress"
       ]
     },
     {
@@ -20772,6 +21259,13 @@
       ]
     },
     {
+      "name": "pify",
+      "score": 1,
+      "stacks": [
+        "cypress"
+      ]
+    },
+    {
       "name": "pino",
       "score": 1,
       "stacks": [
@@ -20860,6 +21354,13 @@
       "score": 1,
       "stacks": [
         "remix"
+      ]
+    },
+    {
+      "name": "postgres",
+      "score": 1,
+      "stacks": [
+        "drizzle-postgres"
       ]
     },
     {
@@ -20982,6 +21483,13 @@
       ]
     },
     {
+      "name": "promise-limit",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "prompts",
       "score": 1,
       "stacks": [
@@ -21094,17 +21602,10 @@
       ]
     },
     {
-      "name": "react-is-18",
+      "name": "react-reconciler",
       "score": 1,
       "stacks": [
-        "jest-ts"
-      ]
-    },
-    {
-      "name": "react-is-19",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
+        "prisma-app"
       ]
     },
     {
@@ -21130,13 +21631,6 @@
     },
     {
       "name": "read-cmd-shim",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
-      "name": "read-yaml-file",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
@@ -21210,6 +21704,13 @@
       "score": 1,
       "stacks": [
         "astro-react"
+      ]
+    },
+    {
+      "name": "regexp-to-ast",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -21353,6 +21854,13 @@
       ]
     },
     {
+      "name": "ret",
+      "score": 1,
+      "stacks": [
+        "fastify-api"
+      ]
+    },
+    {
       "name": "retext-smartypants",
       "score": 1,
       "stacks": [
@@ -21364,13 +21872,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "robust-predicates",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -21392,6 +21893,13 @@
       "score": 1,
       "stacks": [
         "nuxt-ts"
+      ]
+    },
+    {
+      "name": "safe-regex2",
+      "score": 1,
+      "stacks": [
+        "fastify-api"
       ]
     },
     {
@@ -21444,13 +21952,6 @@
       ]
     },
     {
-      "name": "seq-queue",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
-      ]
-    },
-    {
       "name": "seroval-plugins",
       "score": 1,
       "stacks": [
@@ -21473,13 +21974,6 @@
     },
     {
       "name": "set-blocking",
-      "score": 1,
-      "stacks": [
-        "gatsby-react"
-      ]
-    },
-    {
-      "name": "setimmediate",
       "score": 1,
       "stacks": [
         "gatsby-react"
@@ -21647,13 +22141,6 @@
       ]
     },
     {
-      "name": "spawndamnit",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
-      ]
-    },
-    {
       "name": "split-on-first",
       "score": 1,
       "stacks": [
@@ -21665,13 +22152,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "sqlstring",
-      "score": 1,
-      "stacks": [
-        "prisma-app"
       ]
     },
     {
@@ -21707,13 +22187,6 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
-      ]
-    },
-    {
-      "name": "stack-utils",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
       ]
     },
     {
@@ -21808,6 +22281,13 @@
       ]
     },
     {
+      "name": "strnum",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "structured-clone-es",
       "score": 1,
       "stacks": [
@@ -21850,17 +22330,24 @@
       ]
     },
     {
-      "name": "tagged-tag",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "tailwindcss",
       "score": 1,
       "stacks": [
         "tailwind-react"
+      ]
+    },
+    {
+      "name": "term-size",
+      "score": 1,
+      "stacks": [
+        "parcel"
+      ]
+    },
+    {
+      "name": "terminal-size",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -21948,13 +22435,6 @@
       ]
     },
     {
-      "name": "tiny-invariant",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "tinybench",
       "score": 1,
       "stacks": [
@@ -21987,13 +22467,6 @@
       "score": 1,
       "stacks": [
         "cypress"
-      ]
-    },
-    {
-      "name": "tmpl",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
       ]
     },
     {
@@ -22102,6 +22575,13 @@
       ]
     },
     {
+      "name": "typanion",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
+      ]
+    },
+    {
       "name": "type",
       "score": 1,
       "stacks": [
@@ -22186,13 +22666,6 @@
       ]
     },
     {
-      "name": "unenv",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
-      ]
-    },
-    {
       "name": "unhead",
       "score": 1,
       "stacks": [
@@ -22204,6 +22677,13 @@
       "score": 1,
       "stacks": [
         "astro-react"
+      ]
+    },
+    {
+      "name": "uniku",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -22253,13 +22733,6 @@
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "universal-user-agent",
-      "score": 1,
-      "stacks": [
-        "monorepo-tooling"
       ]
     },
     {
@@ -22410,13 +22883,6 @@
       ]
     },
     {
-      "name": "vfile-location",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "vite-dev-rpc",
       "score": 1,
       "stacks": [
@@ -22536,41 +23002,6 @@
       ]
     },
     {
-      "name": "vscode-jsonrpc",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "vscode-languageserver",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "vscode-languageserver-protocol",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "vscode-languageserver-textdocument",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
-      "name": "vscode-languageserver-types",
-      "score": 1,
-      "stacks": [
-        "astro-react"
-      ]
-    },
-    {
       "name": "vscode-nls",
       "score": 1,
       "stacks": [
@@ -22579,6 +23010,13 @@
     },
     {
       "name": "vue-bundle-renderer",
+      "score": 1,
+      "stacks": [
+        "nuxt-ts"
+      ]
+    },
+    {
+      "name": "vue-component-type-helpers",
       "score": 1,
       "stacks": [
         "nuxt-ts"
@@ -22613,24 +23051,10 @@
       ]
     },
     {
-      "name": "walker",
-      "score": 1,
-      "stacks": [
-        "jest-ts"
-      ]
-    },
-    {
       "name": "web-encoding",
       "score": 1,
       "stacks": [
         "remix"
-      ]
-    },
-    {
-      "name": "web-namespaces",
-      "score": 1,
-      "stacks": [
-        "astro-react"
       ]
     },
     {
@@ -22683,10 +23107,10 @@
       ]
     },
     {
-      "name": "widest-line",
+      "name": "workerd",
       "score": 1,
       "stacks": [
-        "gatsby-react"
+        "prisma-app"
       ]
     },
     {
@@ -22694,6 +23118,13 @@
       "score": 1,
       "stacks": [
         "gatsby-react"
+      ]
+    },
+    {
+      "name": "xml-naming",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -22725,24 +23156,17 @@
       ]
     },
     {
-      "name": "yauzl",
-      "score": 1,
-      "stacks": [
-        "cypress"
-      ]
-    },
-    {
-      "name": "yoctocolors",
-      "score": 1,
-      "stacks": [
-        "node-cli"
-      ]
-    },
-    {
       "name": "yoctocolors-cjs",
       "score": 1,
       "stacks": [
         "monorepo-tooling"
+      ]
+    },
+    {
+      "name": "yoga-layout",
+      "score": 1,
+      "stacks": [
+        "prisma-app"
       ]
     },
     {
@@ -22778,13 +23202,6 @@
       "score": 1,
       "stacks": [
         "prisma-app"
-      ]
-    },
-    {
-      "name": "zigpty",
-      "score": 1,
-      "stacks": [
-        "nuxt-ts"
       ]
     },
     {
